@@ -1,11 +1,13 @@
 # Temporal Consistency in Allocentric Spatial Reasoning: Bridging the Gap in Dynamic Scenes
 
-**Researcher:** Seungwoo Lim (Dongguk Univ.)  
-**Program:** POSTECH WURF 2026 (Winter Undergraduate Research Fellowship)  
-**Host Lab:** MLV Lab (Multi-modal Learning & Vision)
+**Researcher:** Seungwoo Lim (Dongguk Univ.) 
+**Program:** POSTECH WURF 2026 (Winter Undergraduate Research Fellowship) 
+**Host Lab:** MLV Lab (Multi-modal Learning & Vision) 
+
+**Presentation** : [Presentation](./WURF_발표_viewspatialbench2026.pdf)
 
 **Base Model:** Qwen2.5-VL-7B-Instruct
-
+ 
 ---
 
 ## 1. Motivation & Problem Statement
