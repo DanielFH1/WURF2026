@@ -1,0 +1,203 @@
+=== Deep Dive Error Analysis ===
+
+Overall Accuracy: 67.33% (373/554)
+
+## Task: Camera perspective - Object View Orientation
+  - Accuracy: 72.83%
+  - Top Confusion Patterns:
+    'Unknown' -> 'Unknown': 12 times
+    'Unknown' -> 'A. back
+B. right
+C. left
+D. front': 2 times
+    'Unknown' -> 'A. back-right
+B. front
+C. left
+D. back-left': 1 times
+    'Unknown' -> 'A. front-right
+B. back-right
+C. back-left
+D. left': 1 times
+    'Unknown' -> 'A. back-left
+B. front-left
+C. front-right
+D. back-right': 1 times
+    'Unknown' -> 'A. back
+B. front
+C. left
+D. front-right': 1 times
+    'Unknown' -> 'A. right
+B. back-left
+C. back
+D. front-left': 1 times
+    'Unknown' -> 'A. front-left
+B. back
+C. front-right
+D. right': 1 times
+    'A. left
+B. front-right
+C. right
+D. back' -> 'Unknown': 1 times
+    'Unknown' -> 'A. back-right
+B. front-right
+C. left
+D. front': 1 times
+
+## Task: Camera perspective - Relative Direction
+  - Accuracy: 59.44%
+  - Top Confusion Patterns:
+    'Unknown' -> 'Unknown': 36 times
+    'A. front-right
+B. back
+C. down
+D. front-left' -> 'Unknown': 1 times
+    'Unknown' -> 'A. back-right
+B. down-right
+C. front-down
+D. front-right': 1 times
+    'Unknown' -> 'A. front-up
+B. back-down
+C. down-left
+D. left': 1 times
+    'Unknown' -> 'A. down
+B. right
+C. front-up
+D. front': 1 times
+    'Unknown' -> 'A. front
+B. above
+C. back-down
+D. left': 1 times
+    'Unknown' -> 'A. down-left
+B. front
+C. right
+D. back': 1 times
+    'Unknown' -> 'A. right
+B. back
+C. front
+D. front-down': 1 times
+    'A. back-right
+B. down-right
+C. front-left
+D. back-down' -> 'Unknown': 1 times
+    'A. above-left
+B. front
+C. above-right
+D. back-up' -> 'Unknown': 1 times
+
+## Task: Person perspective - Object View Orientation
+  - Accuracy: 89.13%
+  - Top Confusion Patterns:
+    'Unknown' -> 'Unknown': 2 times
+    'A. left
+B. back
+C. front
+D. back-right' -> 'Unknown': 1 times
+    'A. right
+B. back
+C. front-left
+D. left' -> 'Unknown': 1 times
+    'A. right
+B. back-left
+C. front
+D. left' -> 'Unknown': 1 times
+    'Unknown' -> 'A. front
+B. left
+C. back-right
+D. right': 1 times
+    'Unknown' -> 'A. right
+B. back
+C. front-left
+D. back-left': 1 times
+    'Unknown' -> 'A. front-left
+B. back
+C. front-right
+D. back-right': 1 times
+    'Unknown' -> 'A. front
+B. back-right
+C. left
+D. back': 1 times
+    'Unknown' -> 'A. back-left
+B. front-right
+C. right
+D. front-left': 1 times
+
+## Task: Person perspective - Relative Direction
+  - Accuracy: 59.26%
+  - Top Confusion Patterns:
+    'Unknown' -> 'Unknown': 13 times
+    'A. left
+B. right' -> 'Unknown': 8 times
+    'A. front
+B. right
+C. left
+D. back-left' -> 'Unknown': 1 times
+    'A. right
+B. front-left
+C. front
+D. back' -> 'Unknown': 1 times
+    'A. front-left
+B. back
+C. back-left
+D. right' -> 'Unknown': 1 times
+    'Unknown' -> 'A. right
+B. back
+C. front
+D. front-left': 1 times
+    'Unknown' -> 'A. left
+B. right
+C. back
+D. front-right': 1 times
+    'Unknown' -> 'A. back-left
+B. front-left
+C. front
+D. right': 1 times
+    'A. right
+B. back-left
+C. front
+D. back' -> 'Unknown': 1 times
+    'A. back
+B. front-right
+C. left
+D. right' -> 'Unknown': 1 times
+
+## Task: Person perspective - Scene Simulation Relative Direction
+  - Accuracy: 63.30%
+  - Top Confusion Patterns:
+    'Unknown' -> 'Unknown': 18 times
+    'A. left
+B. right
+C. back
+D. front' -> 'Unknown': 2 times
+    'Unknown' -> 'A. right
+B. back-left
+C. front
+D. front-left': 1 times
+    'Unknown' -> 'A. front-right
+B. back-left
+C. front
+D. back-right': 1 times
+    'Unknown' -> 'A. right
+B. front-left
+C. back-left
+D. front-right': 1 times
+    'A. back-right
+B. left
+C. front-right
+D. back-left' -> 'Unknown': 1 times
+    'A. front-right
+B. back-right
+C. front-left
+D. back' -> 'Unknown': 1 times
+    'A. front-left
+B. back
+C. right
+D. front-right' -> 'Unknown': 1 times
+    'A. front-left
+B. front-right
+C. back
+D. back-left' -> 'Unknown': 1 times
+    'A. back-left
+B. back-right
+C. front
+D. front-right' -> 'Unknown': 1 times
+

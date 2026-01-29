@@ -1,0 +1,3091 @@
+=== Direction Task Raw Logs ===
+Format: [ID] GT_Char(Dir) vs Pred_Char(Dir) | Result
+
+--------------------------------------------------
+ID: 2 | Task: Person perspective - Relative Direction
+Choices: ['A. back-right\nB. front\nC. left\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 5 | Task: Person perspective - Relative Direction
+Choices: ['A. back-left\nB. front-right\nC. back\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 6 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. back-left\nC. front\nD. front-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. right
+B. back-left
+C. front
+D. front-left" (Parsed: front-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 7 | Task: Person perspective - Relative Direction
+Choices: ['A. back-left\nB. front-right\nC. back-right\nD. front-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 8 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 11 | Task: Person perspective - Relative Direction
+Choices: ['A. back-right\nB. front-right\nC. left\nD. back-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 12 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-down\nB. down-right\nC. down\nD. above-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 13 | Task: Camera perspective - Relative Direction
+Choices: ['A. above\nB. down-left\nC. back-down\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 14 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-left\nB. above-right\nC. down-right\nD. down']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 15 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. front\nC. down-right\nD. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 18 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. right\nC. left\nD. back-left']
+GT  : A -> "A. front
+B. right
+C. left
+D. back-left" (Parsed: back-left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 21 | Task: Person perspective - Relative Direction
+Choices: ['A. front-left\nB. front\nC. back-left\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 24 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 27 | Task: Person perspective - Relative Direction
+Choices: ['A. right\nB. front-left\nC. front\nD. back']
+GT  : A -> "A. right
+B. front-left
+C. front
+D. back" (Parsed: front-left)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 30 | Task: Person perspective - Relative Direction
+Choices: ['A. front-left\nB. back\nC. back-left\nD. right']
+GT  : A -> "A. front-left
+B. back
+C. back-left
+D. right" (Parsed: front-left)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 33 | Task: Person perspective - Relative Direction
+Choices: ['A. back-right\nB. front-right\nC. back-left\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 34 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. front-up\nC. down-right\nD. back-down']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 35 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. back-left\nC. down-left\nD. left']
+GT  : A -> "A. right
+B. back-left
+C. down-left
+D. left" (Parsed: back-left)
+Pred: A -> "A. right
+B. back-left
+C. down-left
+D. left" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 36 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-left\nB. back\nC. above\nD. down-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 37 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-left\nB. above\nC. right\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 38 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-down\nB. front-down\nC. back-left\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 39 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-up\nB. down\nC. front-up\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 40 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back-left\nC. front\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front-right
+B. back-left
+C. front
+D. back-right" (Parsed: front-right)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 41 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. front-left\nC. back-left\nD. front-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: A -> "A. right
+B. front-left
+C. back-left
+D. front-right" (Parsed: front-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 42 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. left\nC. front-right\nD. back-left']
+GT  : A -> "A. back-right
+B. left
+C. front-right
+D. back-left" (Parsed: front-right)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 43 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. back-left\nC. back\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 44 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. left\nC. back-right\nD. front']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 45 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. left\nC. back-left\nD. back']
+GT  : A -> "A. front-right
+B. left
+C. back-left
+D. back" (Parsed: front-right)
+Pred: A -> "A. front-right
+B. left
+C. back-left
+D. back" (Parsed: front-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 46 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. back\nC. left\nD. front']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 51 | Task: Person perspective - Relative Direction
+Choices: ['A. front-left\nB. back-left\nC. left\nD. back-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 52 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-left\nB. front-right\nC. back-down\nD. above']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 53 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-down\nB. back-right\nC. above-right\nD. down-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 54 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-right\nB. back\nC. down\nD. front-left']
+GT  : A -> "A. front-right
+B. back
+C. down
+D. front-left" (Parsed: front-left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 55 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. down-right\nC. front-down\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 56 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. front-right\nC. front-left\nD. back']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 57 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. front-left\nC. back-left\nD. front-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 58 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. back\nC. right\nD. front-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 59 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back-right\nC. front-left\nD. back']
+GT  : A -> "A. front-right
+B. back-right
+C. front-left
+D. back" (Parsed: front-left)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 60 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-left\nB. back\nC. right\nD. front-right']
+GT  : A -> "A. front-left
+B. back
+C. right
+D. front-right" (Parsed: front-left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 61 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. back\nC. right\nD. front']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 62 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. left\nC. back\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 63 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. above-left\nC. back\nD. front-down']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 64 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. front-left\nC. back-right\nD. back-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. right
+B. front-left
+C. back-right
+D. back-left" (Parsed: front-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 67 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 70 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. left\nC. back-left\nD. back-right']
+GT  : A -> "A. front
+B. left
+C. back-left
+D. back-right" (Parsed: back-left)
+Pred: A -> "A. front
+B. left
+C. back-left
+D. back-right" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 73 | Task: Person perspective - Relative Direction
+Choices: ['A. back\nB. back-right\nC. front\nD. right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 76 | Task: Person perspective - Relative Direction
+Choices: ['A. back-left\nB. front\nC. right\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 79 | Task: Person perspective - Relative Direction
+Choices: ['A. right\nB. front\nC. left\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 82 | Task: Person perspective - Relative Direction
+Choices: ['A. right\nB. back\nC. front\nD. front-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. right
+B. back
+C. front
+D. front-left" (Parsed: front-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 85 | Task: Person perspective - Relative Direction
+Choices: ['A. back-left\nB. right\nC. front\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 88 | Task: Person perspective - Relative Direction
+Choices: ['A. back-right\nB. left\nC. front\nD. front-left']
+GT  : A -> "A. back-right
+B. left
+C. front
+D. front-left" (Parsed: front-left)
+Pred: A -> "A. back-right
+B. left
+C. front
+D. front-left" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 93 | Task: Person perspective - Relative Direction
+Choices: ['A. front-left\nB. back-left\nC. front\nD. back-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front-left
+B. back-left
+C. front
+D. back-right" (Parsed: front-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 96 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 99 | Task: Person perspective - Relative Direction
+Choices: ['A. back-left\nB. front-left\nC. front-right\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 100 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-left\nB. front-right\nC. back\nD. back-left']
+GT  : A -> "A. front-left
+B. front-right
+C. back
+D. back-left" (Parsed: front-left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 105 | Task: Person perspective - Relative Direction
+Choices: ['A. front-left\nB. back\nC. left\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 108 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : A -> "A. left
+B. right" (Parsed: left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 113 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right\nC. back\nD. front-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: A -> "A. left
+B. right
+C. back
+D. front-right" (Parsed: front-right)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 116 | Task: Person perspective - Relative Direction
+Choices: ['A. back-left\nB. front-left\nC. front\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: A -> "A. back-left
+B. front-left
+C. front
+D. right" (Parsed: front-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 123 | Task: Person perspective - Relative Direction
+Choices: ['A. front-left\nB. back\nC. left\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 124 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-up\nB. back-down\nC. down-left\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front-up
+B. back-down
+C. down-left
+D. left" (Parsed: front)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 125 | Task: Camera perspective - Relative Direction
+Choices: ['A. above\nB. back-left\nC. above-left\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 126 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. above-right\nC. down\nD. back']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 127 | Task: Camera perspective - Relative Direction
+Choices: ['A. above\nB. back-right\nC. front-left\nD. front-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 128 | Task: Camera perspective - Relative Direction
+Choices: ['A. down\nB. right\nC. front-up\nD. front']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. down
+B. right
+C. front-up
+D. front" (Parsed: front)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 129 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. above\nC. back-down\nD. left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front
+B. above
+C. back-down
+D. left" (Parsed: front)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 130 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-left\nB. front-right\nC. left\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 131 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. right\nC. back\nD. back-right']
+GT  : A -> "A. left
+B. right
+C. back
+D. back-right" (Parsed: back-right)
+Pred: A -> "A. left
+B. right
+C. back
+D. back-right" (Parsed: back-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 132 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. front-right\nC. left\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 133 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. left\nC. back-right\nD. back']
+GT  : A -> "A. front-right
+B. left
+C. back-right
+D. back" (Parsed: front-right)
+Pred: A -> "A. front-right
+B. left
+C. back-right
+D. back" (Parsed: front-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 134 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. front\nC. back\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 135 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. back-right\nC. front\nD. front-right']
+GT  : A -> "A. back-left
+B. back-right
+C. front
+D. front-right" (Parsed: front-right)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 136 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back\nB. back-left\nC. front-right\nD. back-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 139 | Task: Person perspective - Relative Direction
+Choices: ['A. right\nB. back-left\nC. back\nD. front-left']
+GT  : A -> "A. right
+B. back-left
+C. back
+D. front-left" (Parsed: front-left)
+Pred: A -> "A. right
+B. back-left
+C. back
+D. front-left" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 142 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. left\nC. back-left\nD. back-right']
+GT  : A -> "A. front
+B. left
+C. back-left
+D. back-right" (Parsed: back-left)
+Pred: A -> "A. front
+B. left
+C. back-left
+D. back-right" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 145 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right\nC. front\nD. back']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 146 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. back-right\nC. back\nD. front']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 149 | Task: Person perspective - Relative Direction
+Choices: ['A. right\nB. back-left\nC. front\nD. back']
+GT  : A -> "A. right
+B. back-left
+C. front
+D. back" (Parsed: back-left)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 150 | Task: Camera perspective - Relative Direction
+Choices: ['A. down\nB. above-left\nC. back-left\nD. above']
+GT  : A -> "A. down
+B. above-left
+C. back-left
+D. above" (Parsed: back-left)
+Pred: A -> "A. down
+B. above-left
+C. back-left
+D. above" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 151 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. right\nC. down-left\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 152 | Task: Camera perspective - Relative Direction
+Choices: ['A. down\nB. above-left\nC. back-right\nD. front-up']
+GT  : A -> "A. down
+B. above-left
+C. back-right
+D. front-up" (Parsed: back-right)
+Pred: A -> "A. down
+B. above-left
+C. back-right
+D. front-up" (Parsed: back-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 153 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-up\nB. back-left\nC. front-left\nD. above']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 154 | Task: Camera perspective - Relative Direction
+Choices: ['A. down\nB. right\nC. back\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 155 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-right\nB. back-right\nC. down\nD. above-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 156 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-up\nB. back-left\nC. front\nD. back-down']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 157 | Task: Camera perspective - Relative Direction
+Choices: ['A. above\nB. front-up\nC. back-up\nD. down']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 158 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-left\nB. left\nC. down\nD. above-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 159 | Task: Camera perspective - Relative Direction
+Choices: ['A. above\nB. down\nC. back-up\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 160 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-left\nB. front-right\nC. back-left\nD. back-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front-left
+B. front-right
+C. back-left
+D. back-right" (Parsed: front-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 161 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. back\nC. right\nD. front-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 162 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. back-left\nC. back\nD. right']
+GT  : A -> "A. front
+B. back-left
+C. back
+D. right" (Parsed: back-left)
+Pred: A -> "A. front
+B. back-left
+C. back
+D. right" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 163 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back-left\nC. back-right\nD. left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front-right
+B. back-left
+C. back-right
+D. left" (Parsed: front-right)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 164 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. front-left\nC. front\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 165 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. left\nC. front-right\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 166 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. left\nC. back-left\nD. back-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front
+B. left
+C. back-left
+D. back-right" (Parsed: back-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 171 | Task: Person perspective - Relative Direction
+Choices: ['A. back\nB. front-right\nC. left\nD. right']
+GT  : A -> "A. back
+B. front-right
+C. left
+D. right" (Parsed: front-right)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 174 | Task: Person perspective - Relative Direction
+Choices: ['A. front-left\nB. front-right\nC. back-right\nD. back-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 177 | Task: Person perspective - Relative Direction
+Choices: ['A. front-right\nB. back\nC. left\nD. back-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 180 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. back-left\nC. right\nD. front-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 185 | Task: Person perspective - Relative Direction
+Choices: ['A. back\nB. left\nC. front\nD. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 186 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back\nC. right\nD. front-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 189 | Task: Person perspective - Relative Direction
+Choices: ['A. front-right\nB. back-left\nC. left\nD. back']
+GT  : A -> "A. front-right
+B. back-left
+C. left
+D. back" (Parsed: front-right)
+Pred: A -> "A. front-right
+B. back-left
+C. left
+D. back" (Parsed: front-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 192 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. front-right\nC. right\nD. back-right']
+GT  : A -> "A. left
+B. front-right
+C. right
+D. back-right" (Parsed: front-right)
+Pred: A -> "A. left
+B. front-right
+C. right
+D. back-right" (Parsed: front-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 195 | Task: Person perspective - Relative Direction
+Choices: ['A. back-right\nB. back\nC. left\nD. right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 196 | Task: Camera perspective - Relative Direction
+Choices: ['A. down-left\nB. front\nC. right\nD. back']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: A -> "A. down-left
+B. front
+C. right
+D. back" (Parsed: front)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 197 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. back\nC. front\nD. front-down']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. right
+B. back
+C. front
+D. front-down" (Parsed: front)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 198 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-left\nB. back\nC. down-right\nD. above-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 199 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. down-right\nC. front-left\nD. back-down']
+GT  : A -> "A. back-right
+B. down-right
+C. front-left
+D. back-down" (Parsed: front-left)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 200 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. front-left\nC. front-right\nD. down']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 201 | Task: Camera perspective - Relative Direction
+Choices: ['A. above\nB. back\nC. front\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 202 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-left\nB. front\nC. above-right\nD. back-up']
+GT  : A -> "A. above-left
+B. front
+C. above-right
+D. back-up" (Parsed: front)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 203 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. back-up\nC. above-left\nD. back']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front
+B. back-up
+C. above-left
+D. back" (Parsed: front)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 204 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-right\nB. above\nC. down\nD. back-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 205 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. above\nC. above-right\nD. down']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 206 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-left\nB. down\nC. above\nD. above-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 207 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-left\nB. right\nC. front-left\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 208 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-up\nB. back\nC. left\nD. down-left']
+GT  : A -> "A. front-up
+B. back
+C. left
+D. down-left" (Parsed: front)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 209 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-right\nB. back-up\nC. down\nD. left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 210 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-right\nB. back-right\nC. above-left\nD. down-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 211 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. front-left\nC. right\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 212 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. front\nC. back-right\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 213 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. back\nC. front-right\nD. front-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 214 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-left\nB. right\nC. back-right\nD. back-left']
+GT  : A -> "A. front-left
+B. right
+C. back-right
+D. back-left" (Parsed: front-left)
+Pred: A -> "A. front-left
+B. right
+C. back-right
+D. back-left" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 215 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. front-left\nC. back\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 216 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back-right\nC. front-left\nD. left']
+GT  : A -> "A. front-right
+B. back-right
+C. front-left
+D. left" (Parsed: front-left)
+Pred: A -> "A. front-right
+B. back-right
+C. front-left
+D. left" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 217 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. left\nC. back-right\nD. back']
+GT  : A -> "A. front
+B. left
+C. back-right
+D. back" (Parsed: back-right)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 220 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. back-right\nC. back\nD. front']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 223 | Task: Person perspective - Relative Direction
+Choices: ['A. back\nB. back-right\nC. back-left\nD. front']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 226 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. back\nC. right\nD. front-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 231 | Task: Person perspective - Relative Direction
+Choices: ['A. back-right\nB. front\nC. right\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 234 | Task: Person perspective - Relative Direction
+Choices: ['A. back-right\nB. right\nC. back-left\nD. front']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 237 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : A -> "A. left
+B. right" (Parsed: left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 238 | Task: Person perspective - Relative Direction
+Choices: ['A. right\nB. left\nC. front\nD. back-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 239 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : A -> "A. left
+B. right" (Parsed: left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 240 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. front-up\nC. down-right\nD. left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 241 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-down\nB. above\nC. back-right\nD. front-down']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 242 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. front-left\nC. down\nD. back']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 243 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. left\nC. front\nD. above']
+GT  : A -> "A. right
+B. left
+C. front
+D. above" (Parsed: front)
+Pred: A -> "A. right
+B. left
+C. front
+D. above" (Parsed: front)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 244 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. back\nC. front-down\nD. down-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: A -> "A. back-left
+B. back
+C. front-down
+D. down-right" (Parsed: back-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 245 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-up\nB. front-down\nC. back-down\nD. left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 246 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. back-up\nC. back-down\nD. left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 247 | Task: Camera perspective - Relative Direction
+Choices: ['A. down\nB. above-right\nC. back-left\nD. front-left']
+GT  : A -> "A. down
+B. above-right
+C. back-left
+D. front-left" (Parsed: front-left)
+Pred: A -> "A. down
+B. above-right
+C. back-left
+D. front-left" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 248 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. down\nC. back-left\nD. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 249 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. above\nC. down-left\nD. back-down']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 250 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. back-down\nC. above\nD. down-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 251 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. right\nC. down\nD. back-down']
+GT  : A -> "A. left
+B. right
+C. down
+D. back-down" (Parsed: back)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 252 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. front-up\nC. down-left\nD. back-left']
+GT  : A -> "A. right
+B. front-up
+C. down-left
+D. back-left" (Parsed: back-left)
+Pred: A -> "A. right
+B. front-up
+C. down-left
+D. back-left" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 253 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. back-up\nC. down\nD. back-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 254 | Task: Camera perspective - Relative Direction
+Choices: ['A. down-left\nB. above\nC. right\nD. down']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 255 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. back\nC. front-left\nD. front']
+GT  : A -> "A. right
+B. back
+C. front-left
+D. front" (Parsed: front-left)
+Pred: A -> "A. right
+B. back
+C. front-left
+D. front" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 256 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. front-right\nC. front-left\nD. right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 257 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. back-left\nC. right\nD. front-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 258 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back-right\nC. right\nD. left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 259 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. front-left\nC. front\nD. right']
+GT  : A -> "A. back-left
+B. front-left
+C. front
+D. right" (Parsed: front-left)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 260 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. back\nC. back-right\nD. left']
+GT  : A -> "A. front
+B. back
+C. back-right
+D. left" (Parsed: back-right)
+Pred: A -> "A. front
+B. back
+C. back-right
+D. left" (Parsed: back-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 261 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back\nC. back-left\nD. front-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front-right
+B. back
+C. back-left
+D. front-left" (Parsed: front-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 262 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 263 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. front-right\nC. left\nD. above-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 264 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-down\nB. left\nC. back-down\nD. down']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 265 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-up\nB. left\nC. front\nD. front-up']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 266 | Task: Camera perspective - Relative Direction
+Choices: ['A. back\nB. back-right\nC. left\nD. front']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 267 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-down\nB. left\nC. back-up\nD. front-down']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 268 | Task: Camera perspective - Relative Direction
+Choices: ['A. back\nB. front-up\nC. left\nD. front-down']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: A -> "A. back
+B. front-up
+C. left
+D. front-down" (Parsed: front)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 269 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-down\nB. front-up\nC. back-right\nD. back-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 274 | Task: Person perspective - Relative Direction
+Choices: ['A. right\nB. left\nC. front-right\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 275 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. right\nC. down-left\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 276 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. down\nC. above-right\nD. front-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 277 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-up\nB. left\nC. above\nD. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 278 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. back-right\nC. front-up\nD. right']
+GT  : A -> "A. left
+B. back-right
+C. front-up
+D. right" (Parsed: back-right)
+Pred: A -> "A. left
+B. back-right
+C. front-up
+D. right" (Parsed: back-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 279 | Task: Camera perspective - Relative Direction
+Choices: ['A. back\nB. right\nC. front-up\nD. left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 280 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. down-left\nC. right\nD. front-down']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 283 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. back-left\nC. back\nD. back-right']
+GT  : A -> "A. front
+B. back-left
+C. back
+D. back-right" (Parsed: back-left)
+Pred: A -> "A. front
+B. back-left
+C. back
+D. back-right" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 288 | Task: Person perspective - Relative Direction
+Choices: ['A. back\nB. front-right\nC. front-left\nD. back-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 289 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : A -> "A. left
+B. right" (Parsed: left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 292 | Task: Person perspective - Relative Direction
+Choices: ['A. right\nB. front-left\nC. back-left\nD. back']
+GT  : A -> "A. right
+B. front-left
+C. back-left
+D. back" (Parsed: front-left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 295 | Task: Person perspective - Relative Direction
+Choices: ['A. right\nB. left\nC. back\nD. front']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 296 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-up\nB. front-right\nC. right\nD. left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 297 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. back-up\nC. down-right\nD. back-down']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 298 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back-right\nC. left\nD. front-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 301 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. back-right\nC. back\nD. left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 302 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. left\nC. front\nD. front-up']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 303 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. right\nC. above\nD. back-down']
+GT  : A -> "A. front
+B. right
+C. above
+D. back-down" (Parsed: front)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 304 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. back-right\nC. above\nD. left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 305 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. back-down\nC. front-up\nD. front-down']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 306 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-down\nB. back-up\nC. right\nD. back-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 307 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-left\nB. above-right\nC. back-left\nD. back-right']
+GT  : A -> "A. front-left
+B. above-right
+C. back-left
+D. back-right" (Parsed: front-left)
+Pred: A -> "A. front-left
+B. above-right
+C. back-left
+D. back-right" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 308 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. back-down\nC. above\nD. back-up']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 309 | Task: Camera perspective - Relative Direction
+Choices: ['A. back\nB. front-right\nC. down-left\nD. above']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 310 | Task: Camera perspective - Relative Direction
+Choices: ['A. down-right\nB. back-up\nC. right\nD. front-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 311 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. front-down\nC. front-right\nD. back-up']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: A -> "A. right
+B. front-down
+C. front-right
+D. back-up" (Parsed: front-right)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 312 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-right\nB. down-right\nC. above\nD. down']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 313 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-down\nB. above\nC. left\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 314 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. front-down\nC. back-down\nD. front-left']
+GT  : A -> "A. right
+B. front-down
+C. back-down
+D. front-left" (Parsed: front-left)
+Pred: A -> "A. right
+B. front-down
+C. back-down
+D. front-left" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 315 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. back\nC. down-right\nD. above']
+GT  : A -> "A. left
+B. back
+C. down-right
+D. above" (Parsed: back)
+Pred: A -> "A. left
+B. back
+C. down-right
+D. above" (Parsed: back)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 316 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. back-right\nC. back-left\nD. back']
+GT  : A -> "A. front
+B. back-right
+C. back-left
+D. back" (Parsed: back-left)
+Pred: A -> "A. front
+B. back-right
+C. back-left
+D. back" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 317 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. right\nC. front-left\nD. back']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 318 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-left\nB. back\nC. back-right\nD. right']
+GT  : A -> "A. front-left
+B. back
+C. back-right
+D. right" (Parsed: front-left)
+Pred: A -> "A. front-left
+B. back
+C. back-right
+D. right" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 319 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back\nB. front\nC. back-left\nD. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 320 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. back-left\nC. back\nD. right']
+GT  : A -> "A. front
+B. back-left
+C. back
+D. right" (Parsed: back-left)
+Pred: A -> "A. front
+B. back-left
+C. back
+D. right" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 321 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. back\nC. back-left\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 322 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. back-left\nC. right\nD. back']
+GT  : A -> "A. front
+B. back-left
+C. right
+D. back" (Parsed: back-left)
+Pred: A -> "A. front
+B. back-left
+C. right
+D. back" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 325 | Task: Person perspective - Relative Direction
+Choices: ['A. back\nB. left\nC. front\nD. front-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. back
+B. left
+C. front
+D. front-right" (Parsed: front-right)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 328 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : A -> "A. left
+B. right" (Parsed: left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 329 | Task: Camera perspective - Relative Direction
+Choices: ['A. down-right\nB. right\nC. back-left\nD. front-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 330 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-right\nB. above\nC. front-left\nD. right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 331 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. back-left\nC. above-left\nD. back-up']
+GT  : A -> "A. right
+B. back-left
+C. above-left
+D. back-up" (Parsed: back-left)
+Pred: A -> "A. right
+B. back-left
+C. above-left
+D. back-up" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 332 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. front\nC. down\nD. front-down']
+GT  : A -> "A. left
+B. front
+C. down
+D. front-down" (Parsed: front)
+Pred: A -> "A. left
+B. front
+C. down
+D. front-down" (Parsed: front)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 333 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-right\nB. back-left\nC. down-left\nD. front-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 334 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. back\nC. back-right\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 341 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 344 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. front-right\nC. front-left\nD. back-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 345 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. front-down\nC. front\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 346 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. down-left\nC. back-right\nD. front']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 347 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. back-down\nC. left\nD. down-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 348 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. above\nC. above-left\nD. down']
+GT  : A -> "A. right
+B. above
+C. above-left
+D. down" (Parsed: left)
+Pred: A -> "A. right
+B. above
+C. above-left
+D. down" (Parsed: left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 349 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-left\nB. down\nC. above\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 350 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. right\nC. back-left\nD. front-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 353 | Task: Person perspective - Relative Direction
+Choices: ['A. back-left\nB. back-right\nC. front\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 354 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. back-down\nC. above-right\nD. down-left']
+GT  : A -> "A. back-right
+B. back-down
+C. above-right
+D. down-left" (Parsed: back-right)
+Pred: A -> "A. back-right
+B. back-down
+C. above-right
+D. down-left" (Parsed: back-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 355 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. above\nC. front-right\nD. down-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 356 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-down\nB. above\nC. back-up\nD. left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 357 | Task: Camera perspective - Relative Direction
+Choices: ['A. down-left\nB. down-right\nC. above\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. down-left
+B. down-right
+C. above
+D. back-right" (Parsed: back-right)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 358 | Task: Camera perspective - Relative Direction
+Choices: ['A. back\nB. front-up\nC. right\nD. down-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 359 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-left\nB. back-up\nC. down\nD. back-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 360 | Task: Camera perspective - Relative Direction
+Choices: ['A. down\nB. front\nC. back-up\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: A -> "A. down
+B. front
+C. back-up
+D. right" (Parsed: front)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 361 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. back\nC. right\nD. back-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front
+B. back
+C. right
+D. back-left" (Parsed: back-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 362 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. back-left\nC. front-left\nD. back']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 363 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back\nB. left\nC. front-left\nD. front-right']
+GT  : A -> "A. back
+B. left
+C. front-left
+D. front-right" (Parsed: front-left)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 364 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-left\nB. back-right\nC. front-right\nD. back-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 365 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. back-left\nC. back\nD. front']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 366 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. front-right\nC. back-left\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 367 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back\nC. front-left\nD. left']
+GT  : A -> "A. front-right
+B. back
+C. front-left
+D. left" (Parsed: front-left)
+Pred: A -> "A. front-right
+B. back
+C. front-left
+D. left" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 368 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. front-right\nC. front-left\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 371 | Task: Person perspective - Relative Direction
+Choices: ['A. front-left\nB. back\nC. back-left\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 374 | Task: Person perspective - Relative Direction
+Choices: ['A. back-right\nB. back\nC. back-left\nD. front']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 377 | Task: Person perspective - Relative Direction
+Choices: ['A. back\nB. left\nC. front-left\nD. front-right']
+GT  : A -> "A. back
+B. left
+C. front-left
+D. front-right" (Parsed: front-left)
+Pred: A -> "A. back
+B. left
+C. front-left
+D. front-right" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 378 | Task: Person perspective - Relative Direction
+Choices: ['A. back-right\nB. left\nC. back-left\nD. front']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 381 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. right\nC. left\nD. back-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front
+B. right
+C. left
+D. back-left" (Parsed: back-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 384 | Task: Person perspective - Relative Direction
+Choices: ['A. back-left\nB. front-right\nC. back-right\nD. front-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 387 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 388 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. back-down\nC. left\nD. back']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 389 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. back-right\nC. front-right\nD. down-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 390 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. back\nC. down\nD. above']
+GT  : A -> "A. right
+B. back
+C. down
+D. above" (Parsed: back)
+Pred: A -> "A. right
+B. back
+C. down
+D. above" (Parsed: back)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 391 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-left\nB. down\nC. above-right\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 392 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. right\nC. back\nD. front']
+GT  : A -> "A. left
+B. right
+C. back
+D. front" (Parsed: front)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 393 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. back\nC. left\nD. front-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 394 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. right\nC. back-left\nD. front']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 395 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. right\nC. front-left\nD. back-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 396 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. front-right\nC. front-left\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 397 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. right\nC. back\nD. front']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 398 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. back-left\nC. front-left\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 401 | Task: Person perspective - Relative Direction
+Choices: ['A. back-right\nB. left\nC. back\nD. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 406 | Task: Person perspective - Relative Direction
+Choices: ['A. back\nB. back-right\nC. front\nD. back-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 409 | Task: Person perspective - Relative Direction
+Choices: ['A. back-left\nB. right\nC. left\nD. front']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 412 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. left\nC. right\nD. front-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 413 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-left\nB. back\nC. right\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 418 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-right\nB. front\nC. front-up\nD. left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 419 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. front-up\nC. back-up\nD. down-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. back-left
+B. front-up
+C. back-up
+D. down-right" (Parsed: back-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 420 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. back-down\nC. above\nD. back-right']
+GT  : A -> "A. left
+B. back-down
+C. above
+D. back-right" (Parsed: back-right)
+Pred: A -> "A. left
+B. back-down
+C. above
+D. back-right" (Parsed: back-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 421 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-left\nB. back-down\nC. front-down\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front-left
+B. back-down
+C. front-down
+D. back-right" (Parsed: front-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 422 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. front\nC. back-right\nD. back-down']
+GT  : A -> "A. left
+B. front
+C. back-right
+D. back-down" (Parsed: back-right)
+Pred: A -> "A. left
+B. front
+C. back-right
+D. back-down" (Parsed: back-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 423 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. back-up\nC. front-right\nD. left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 424 | Task: Camera perspective - Relative Direction
+Choices: ['A. down\nB. front-right\nC. front\nD. back-right']
+GT  : A -> "A. down
+B. front-right
+C. front
+D. back-right" (Parsed: front-right)
+Pred: A -> "A. down
+B. front-right
+C. front
+D. back-right" (Parsed: front-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 425 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-left\nB. down-left\nC. back-right\nD. back-down']
+GT  : A -> "A. front-left
+B. down-left
+C. back-right
+D. back-down" (Parsed: front-left)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 426 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-left\nB. down\nC. back-up\nD. above-left']
+GT  : A -> "A. front-left
+B. down
+C. back-up
+D. above-left" (Parsed: front-left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 427 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-up\nB. right\nC. front-left\nD. above']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 428 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. back-right\nC. front-up\nD. front-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 429 | Task: Camera perspective - Relative Direction
+Choices: ['A. back\nB. left\nC. down-right\nD. right']
+GT  : A -> "A. back
+B. left
+C. down-right
+D. right" (Parsed: back)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 430 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back-left\nC. front-left\nD. left']
+GT  : A -> "A. front-right
+B. back-left
+C. front-left
+D. left" (Parsed: front-left)
+Pred: A -> "A. front-right
+B. back-left
+C. front-left
+D. left" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 431 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. front-right\nC. left\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 432 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. back-left\nC. back-right\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 433 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. back-left\nC. back-right\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 434 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. front-left\nC. left\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 435 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. front\nC. back\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 436 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. back-right\nC. front-left\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 439 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : A -> "A. left
+B. right" (Parsed: left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 442 | Task: Person perspective - Relative Direction
+Choices: ['A. back\nB. front-right\nC. right\nD. left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 445 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : A -> "A. left
+B. right" (Parsed: left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 448 | Task: Camera perspective - Relative Direction
+Choices: ['A. back\nB. back-right\nC. right\nD. down']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 449 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-down\nB. above-left\nC. left\nD. down-right']
+GT  : A -> "A. back-down
+B. above-left
+C. left
+D. down-right" (Parsed: back)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 450 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. front-down\nC. back\nD. front']
+GT  : A -> "A. right
+B. front-down
+C. back
+D. front" (Parsed: front)
+Pred: A -> "A. right
+B. front-down
+C. back
+D. front" (Parsed: front)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 451 | Task: Camera perspective - Relative Direction
+Choices: ['A. above\nB. back\nC. front-up\nD. down']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 452 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. back-right\nC. front-right\nD. front-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 453 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. front\nC. right\nD. back-down']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 454 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-right\nB. front-left\nC. down-right\nD. back']
+GT  : A -> "A. above-right
+B. front-left
+C. down-right
+D. back" (Parsed: front-left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 455 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-down\nB. down-right\nC. front-right\nD. back-right']
+GT  : A -> "A. back-down
+B. down-right
+C. front-right
+D. back-right" (Parsed: front-right)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 456 | Task: Camera perspective - Relative Direction
+Choices: ['A. down\nB. down-left\nC. back-left\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 457 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. front\nC. above\nD. down-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 458 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-right\nB. back-down\nC. back-up\nD. front-up']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front-right
+B. back-down
+C. back-up
+D. front-up" (Parsed: front-right)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 459 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. down-left\nC. front-right\nD. front-down']
+GT  : A -> "A. back-left
+B. down-left
+C. front-right
+D. front-down" (Parsed: front-right)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 460 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. front\nC. back-up\nD. left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 461 | Task: Camera perspective - Relative Direction
+Choices: ['A. down\nB. back\nC. back-left\nD. back-right']
+GT  : A -> "A. down
+B. back
+C. back-left
+D. back-right" (Parsed: back-left)
+Pred: A -> "A. down
+B. back
+C. back-left
+D. back-right" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 462 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. back-down\nC. down-right\nD. above']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 463 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. back-right\nC. front-right\nD. back-up']
+GT  : A -> "A. back-left
+B. back-right
+C. front-right
+D. back-up" (Parsed: front-right)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 464 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-left\nB. front-right\nC. back-right\nD. front-up']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. above-left
+B. front-right
+C. back-right
+D. front-up" (Parsed: front-right)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 465 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. down-left\nC. above\nD. right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 466 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. front-right\nC. front-left\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 467 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. back-right\nC. back\nD. front-right']
+GT  : A -> "A. left
+B. back-right
+C. back
+D. front-right" (Parsed: front-right)
+Pred: A -> "A. left
+B. back-right
+C. back
+D. front-right" (Parsed: front-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 468 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-left\nB. back-left\nC. back\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 469 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. back\nC. left\nD. front-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 470 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back\nB. front-left\nC. right\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 471 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. back-right\nC. right\nD. back-left']
+GT  : A -> "A. front
+B. back-right
+C. right
+D. back-left" (Parsed: back-left)
+Pred: A -> "A. front
+B. back-right
+C. right
+D. back-left" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 472 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. back-left\nC. right\nD. front']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 473 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-left\nB. down-left\nC. back-down\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 474 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. front-right\nC. back-up\nD. down']
+GT  : A -> "A. left
+B. front-right
+C. back-up
+D. down" (Parsed: front-right)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 475 | Task: Camera perspective - Relative Direction
+Choices: ['A. above\nB. back\nC. above-left\nD. front-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 476 | Task: Camera perspective - Relative Direction
+Choices: ['A. back\nB. front-up\nC. down\nD. back-up']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 477 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-down\nB. right\nC. front-down\nD. back-up']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 478 | Task: Camera perspective - Relative Direction
+Choices: ['A. down-left\nB. above-left\nC. back-left\nD. front-up']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 479 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. above-left\nC. right\nD. front-up']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 480 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-down\nB. left\nC. down\nD. back']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 481 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. front-down\nC. down-right\nD. down-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: A -> "A. left
+B. front-down
+C. down-right
+D. down-left" (Parsed: front)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 482 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-up\nB. back-right\nC. front-up\nD. down']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 483 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. front-right\nC. back\nD. back-down']
+GT  : A -> "A. left
+B. front-right
+C. back
+D. back-down" (Parsed: front-right)
+Pred: A -> "A. left
+B. front-right
+C. back
+D. back-down" (Parsed: front-right)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 484 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. above-left\nC. back\nD. left']
+GT  : A -> "A. right
+B. above-left
+C. back
+D. left" (Parsed: back)
+Pred: A -> "A. right
+B. above-left
+C. back
+D. left" (Parsed: back)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 485 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-up\nB. above-left\nC. left\nD. back']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 486 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. right\nC. left\nD. back']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 487 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. right\nC. back\nD. front']
+GT  : A -> "A. left
+B. right
+C. back
+D. front" (Parsed: front)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 488 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. right\nC. front\nD. back-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 489 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back\nB. back-right\nC. right\nD. front']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 490 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back\nC. left\nD. front-left']
+GT  : A -> "A. front-right
+B. back
+C. left
+D. front-left" (Parsed: front-left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 491 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. front-left\nC. back\nD. right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 492 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back\nB. back-right\nC. right\nD. left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 497 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. back-right\nC. left\nD. right']
+GT  : A -> "A. front
+B. back-right
+C. left
+D. right" (Parsed: back-right)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 498 | Task: Camera perspective - Relative Direction
+Choices: ['A. down\nB. above-left\nC. left\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: A -> "A. down
+B. above-left
+C. left
+D. right" (Parsed: left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 499 | Task: Camera perspective - Relative Direction
+Choices: ['A. back\nB. front-up\nC. down-right\nD. down-left']
+GT  : A -> "A. back
+B. front-up
+C. down-right
+D. down-left" (Parsed: front)
+Pred: A -> "A. back
+B. front-up
+C. down-right
+D. down-left" (Parsed: front)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 500 | Task: Camera perspective - Relative Direction
+Choices: ['A. above\nB. down-right\nC. back\nD. front-up']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 501 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-up\nB. down\nC. above\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 502 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. back-up\nC. down\nD. back-left']
+GT  : A -> "A. back-right
+B. back-up
+C. down
+D. back-left" (Parsed: back-left)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 503 | Task: Camera perspective - Relative Direction
+Choices: ['A. down-left\nB. right\nC. down\nD. above']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 504 | Task: Camera perspective - Relative Direction
+Choices: ['A. down\nB. down-right\nC. left\nD. front-up']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 505 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. back-down\nC. right\nD. front']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: A -> "A. left
+B. back-down
+C. right
+D. front" (Parsed: front)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 506 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-left\nB. front-down\nC. front-right\nD. front-up']
+GT  : A -> "A. above-left
+B. front-down
+C. front-right
+D. front-up" (Parsed: front-right)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 507 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-right\nB. back-left\nC. front-down\nD. down-right']
+GT  : A -> "A. back-right
+B. back-left
+C. front-down
+D. down-right" (Parsed: back-left)
+Pred: A -> "A. back-right
+B. back-left
+C. front-down
+D. down-right" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 508 | Task: Camera perspective - Relative Direction
+Choices: ['A. above-left\nB. front\nC. right\nD. left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 509 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. front-up\nC. down\nD. back']
+GT  : A -> "A. right
+B. front-up
+C. down
+D. back" (Parsed: front)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 510 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. back-right\nC. front-down\nD. front-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front
+B. back-right
+C. front-down
+D. front-right" (Parsed: front-right)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 511 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. back-right\nC. front-right\nD. front-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 512 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. left\nB. back-right\nC. back-left\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 513 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-right\nB. back\nC. front-left\nD. back-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front-right
+B. back
+C. front-left
+D. back-left" (Parsed: front-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 514 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. back\nC. front-left\nD. right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 515 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. left\nC. right\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 516 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. front-right\nC. front-left\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 517 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. left\nC. right\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front
+B. left
+C. right
+D. back" (Parsed: front)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 520 | Task: Person perspective - Relative Direction
+Choices: ['A. front\nB. back-left\nC. right\nD. back']
+GT  : A -> "A. front
+B. back-left
+C. right
+D. back" (Parsed: back-left)
+Pred: A -> "A. front
+B. back-left
+C. right
+D. back" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 521 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. right\nC. above\nD. above-left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 522 | Task: Camera perspective - Relative Direction
+Choices: ['A. front\nB. back-left\nC. back-up\nD. above-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front
+B. back-left
+C. back-up
+D. above-right" (Parsed: back-left)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 523 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-down\nB. down-right\nC. left\nD. back-up']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 524 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. above-left\nC. right\nD. front-up']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 525 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. down-left\nC. down-right\nD. back-down']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 526 | Task: Camera perspective - Relative Direction
+Choices: ['A. left\nB. back\nC. down-left\nD. front-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 527 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-down\nB. back-up\nC. front-right\nD. above']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: D -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 528 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. back-down\nC. above\nD. front-down']
+GT  : A -> "A. right
+B. back-down
+C. above
+D. front-down" (Parsed: front)
+Pred: A -> "A. right
+B. back-down
+C. above
+D. front-down" (Parsed: front)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 529 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back\nB. back-left\nC. front\nD. right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 530 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front-left\nB. front-right\nC. left\nD. back-right']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 531 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-left\nB. back-right\nC. front\nD. left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 532 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. back-left\nC. front-left\nD. back']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 533 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. back-right\nB. back\nC. front-left\nD. right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 534 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. front\nB. back-left\nC. back\nD. left']
+GT  : A -> "A. front
+B. back-left
+C. back
+D. left" (Parsed: back-left)
+Pred: A -> "A. front
+B. back-left
+C. back
+D. left" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 535 | Task: Person perspective - Scene Simulation Relative Direction
+Choices: ['A. right\nB. back-left\nC. front-left\nD. front-right']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 540 | Task: Person perspective - Relative Direction
+Choices: ['A. right\nB. back-left\nC. back\nD. front-left']
+GT  : A -> "A. right
+B. back-left
+C. back
+D. front-left" (Parsed: front-left)
+Pred: A -> "A. right
+B. back-left
+C. back
+D. front-left" (Parsed: front-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 543 | Task: Person perspective - Relative Direction
+Choices: ['A. back-right\nB. front\nC. right\nD. left']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 546 | Task: Person perspective - Relative Direction
+Choices: ['A. front-left\nB. right\nC. left\nD. front']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 547 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-down\nB. right\nC. down-left\nD. back-up']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 548 | Task: Camera perspective - Relative Direction
+Choices: ['A. front-right\nB. down\nC. down-left\nD. above-left']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: A -> "A. front-right
+B. down
+C. down-left
+D. above-left" (Parsed: front-right)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 549 | Task: Camera perspective - Relative Direction
+Choices: ['A. back-left\nB. front-down\nC. right\nD. down-left']
+GT  : C -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ✅ CORRECT
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 550 | Task: Camera perspective - Relative Direction
+Choices: ['A. right\nB. back-left\nC. back\nD. back-down']
+GT  : A -> "A. right
+B. back-left
+C. back
+D. back-down" (Parsed: back-left)
+Pred: A -> "A. right
+B. back-left
+C. back
+D. back-down" (Parsed: back-left)
+Result: ✅ CORRECT
+--------------------------------------------------
+ID: 551 | Task: Camera perspective - Relative Direction
+Choices: ['A. above\nB. above-right\nC. back-down\nD. front-right']
+GT  : D -> "ERR" (Parsed: NONE)
+Pred: C -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 552 | Task: Camera perspective - Relative Direction
+Choices: ['A. down-left\nB. above\nC. back-right\nD. back']
+GT  : B -> "ERR" (Parsed: NONE)
+Pred: A -> "A. down-left
+B. above
+C. back-right
+D. back" (Parsed: back-right)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.
+--------------------------------------------------
+ID: 553 | Task: Person perspective - Relative Direction
+Choices: ['A. left\nB. right']
+GT  : A -> "A. left
+B. right" (Parsed: left)
+Pred: B -> "ERR" (Parsed: NONE)
+Result: ❌ WRONG
+⚠️ PARSING FAILED: Could not extract direction from text.

@@ -1,8 +1,12 @@
 # Temporal Consistency in Allocentric Spatial Reasoning: Bridging the Gap in Dynamic Scenes
 
 **Researcher:** Seungwoo Lim (Dongguk Univ.) 
+
 **Program:** POSTECH WURF 2026 (Winter Undergraduate Research Fellowship) 
+
 **Host Lab:** MLV Lab (Multi-modal Learning & Vision) 
+
+**Advisor:** [Professor Kwang-in Kim](https://scholar.google.com/citations?user=0wIdMGEAAAAJ&hl=en)
 
 **Presentation** : [Presentation](./WURF_발표_viewspatialbench2026.pdf)
 
@@ -106,4 +110,5 @@ python run_stress_test.py
 ```
 
 # Acknowledgements
-This project is part of the 2026 POSTECH WURF program. Special thanks to the authors of ViewSpatial-Bench for their inspiring works on allocentric reasoning gaps.
+This project is part of the 2026 POSTECH WURF program.
+Special thanks to the MLV Lab for supporting the computing resources and guiding me, and thanks to the authors of ViewSpatial-Bench for their inspiring works on allocentric reasoning gaps.

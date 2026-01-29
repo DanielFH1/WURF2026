@@ -1,0 +1,3 @@
+source /nas_data2/seungwoo/2/miniconda3/bin/activate viewspatial
+
+cd /nas_data2/seungwoo/2/

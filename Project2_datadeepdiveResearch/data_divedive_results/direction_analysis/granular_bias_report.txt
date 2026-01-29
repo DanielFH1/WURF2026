@@ -1,0 +1,12 @@
+=== Granular Directional Error Analysis ===
+Total Direction Errors: 128
+
+--- Error Breakdown ---
+Horizontal_Flip (Left <-> Right): 53 (41.41%)
+Orthogonal_Error (e.g., Front <-> Left): 40 (31.25%)
+Vertical_Flip (Front <-> Back): 32 (25.00%)
+Adjacent_Error (e.g., Front <-> Front-Left): 3 (2.34%)
+
+--- Strategic Implication ---
+1. [Main Action] Horizontal Flip is prevalent compared to Vertical Flip.
+   -> Justifies 'Horizontal Flip Augmentation'.

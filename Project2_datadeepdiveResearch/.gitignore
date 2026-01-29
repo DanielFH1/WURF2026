@@ -1,0 +1,10 @@
+checkpoints/
+*.pth
+*.bin
+*.safetensors
+ViewSpatial-Bench/
+visual_prompt_images/
+__pycache__/
+*.png
+wandb/
+*.jpg

@@ -1,0 +1,7 @@
+Total Errors: 145
+
+Others (Rotation/Diagonal): 113 (77.93%)
+Horizontal Flip Error: 24 (16.55%)
+Depth Flip Error: 8 (5.52%)
+Vertical Flip Error: 0 (0.00%)
+Fine-grained Error (Adjacent): 0 (0.00%)

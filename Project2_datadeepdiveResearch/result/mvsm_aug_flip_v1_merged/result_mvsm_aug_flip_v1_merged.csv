@@ -1,0 +1,3295 @@
+ID,Question,Question_Type,Predicted Answer,Correct Answer,IsCorrect
+0,"Considering the camera's perspective as the front, what direction is the bird facing within the picture?A. left
+B. back-right
+C. back
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. left,A. left,True
+1,"Imagine you're the bird in this image — which direction are you facing?A. left
+B. back
+C. right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. right,C. right,True
+2,"From the perspective of a bird, where is the food located?A. back-right
+B. front
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. front,B. front,True
+3,"Taking the camera's viewpoint as the front, which way is the woman in blue and black clothes facing in the image?A. back-right
+B. front
+C. left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back-right,B. front,False
+4,"As the woman in blue and black clothes in the photo, in which direction are you facing?A. back-left
+B. left
+C. right
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+5,"From the perspective of the woman in blue and black clothes, where is the woman in pink and black clothes located?A. back-left
+B. front-right
+C. back
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. front-right,B. front-right,True
+6,"Standing at refrigerator, gazing at counter, where should table be?A. right
+B. back-left
+C. front
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. right,B. back-left,False
+7,"From the perspective of the boy in orange clothes, where is the boy in white clothes located?A. back-left
+B. front-right
+C. back-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. front-right,D. front-left,False
+8,"Which hand is the man holding the pizza with?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,B. right,True
+9,"With the camera's viewpoint as the front, which direction is the man sitting on the horse facing in the image?A. back
+B. front-right
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back,C. left,False
+10,"As the man sitting on the horse in the photo, in which direction are you facing?A. back
+B. right
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+11,"From the perspective of the man sitting on the horse, where is the man in blue clothes located?A. back-right
+B. front-right
+C. left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,C. left,B. front-right,False
+12,"Where is the door located compared to the picture from the camera's perspective?A. back-down
+B. down-right
+C. down
+D. above-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. above-right,D. above-right,True
+13,"Where is the toilet in relation to the window?A. above
+B. down-left
+C. back-down
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,D. right,True
+14,"If you're looking at the sink, where would you find the mirror?A. above-left
+B. above-right
+C. down-right
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. above-right,B. above-right,True
+15,"Where is the toilet located compared to the door from the camera's perspective?A. back-right
+B. front
+C. down-right
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. front,B. front,True
+16,"With the camera's viewpoint as the front, which direction is the woman wearing the green helmet facing in the image?A. back-right
+B. left
+C. front
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back-right,B. left,False
+17,"As the woman wearing the green helmet in the photo, in which direction are you facing?A. right
+B. back-right
+C. front
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front,C. front,True
+18,"From the perspective of the woman wearing the green helmet, where is the person in black clothes?A. front
+B. right
+C. left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. front,A. front,True
+19,"With the camera's viewpoint as the front, which direction is the woman facing in the image?A. front-left
+B. right
+C. back
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. back,C. back,True
+20,"Picture yourself as the woman; which way are you looking in the scene?A. front
+B. back
+C. back-left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,A. front,True
+21,"From this woman's perspective, where is the riverbank?A. front-left
+B. front
+C. back-left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. right,D. right,True
+22,"With the camera's viewpoint as the front, which direction is the man facing in the image?A. front-right
+B. back-right
+C. back-left
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back-right,B. back-right,True
+23,"Imagine you're the man in this image — which direction are you facing?A. left
+B. back
+C. front
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front,A. left,False
+24,"Which hand is the man holding the sports ball with?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,B. right,True
+25,"Taking the camera's viewpoint as the front, which way is the man facing in the image?A. back-right
+B. back-left
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back-left,B. back-left,True
+26,"Imagine you're the man in this image — which direction are you facing?A. front
+B. left
+C. back-right
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,A. front,True
+27,"From the man's perspective, where is the motorcycle?A. right
+B. front-left
+C. front
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. right,A. right,True
+28,"Taking the camera's viewpoint as the front, which way is the man in dark grey clothes facing in the image?A. front-left
+B. front-right
+C. left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back-right,D. back-right,True
+29,"Picture yourself as the man in dark grey clothes; which way are you looking in the scene?A. back-right
+B. back
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+30,"From the perspective of the man in dark grey clothes, where is the man in white clothes located?A. front-left
+B. back
+C. back-left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. right,A. front-left,False
+31,"Considering the camera's perspective as the front, what direction is the man in the brownish-yellow clothes facing within the picture?A. back-left
+B. front-left
+C. front-right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back-right,D. back-right,True
+32,"As the man in the brownish-yellow clothes in the photo, in which direction are you facing?A. right
+B. back
+C. front-left
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. right,A. right,True
+33,"From the perspective of the man in the brownish-yellow clothes, where is the red suitcase?A. back-right
+B. front-right
+C. back-left
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. back-right,B. front-right,False
+34,"If you're looking at the mirror, where would you find the toilet?A. back-right
+B. front-up
+C. down-right
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down-right,C. down-right,True
+35,"Could you tell me the location of the toilet in comparison to the sink?A. right
+B. back-left
+C. down-left
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,A. right,True
+36,"If you're looking at the sink, where would you find the mirror?A. front-left
+B. back
+C. above
+D. down-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. above,C. above,True
+37,"Could you tell me the location of the mirror in comparison to the sink?A. front-left
+B. above
+C. right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. above,B. above,True
+38,"Could you tell me the location of the sink in comparison to the door?A. back-down
+B. front-down
+C. back-left
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,D. right,True
+39,"If you're looking at the sink, where would you find the toilet?A. back-up
+B. down
+C. front-up
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,D. right,True
+40,"Standing at counter, gazing at refrigerator, where should towel be?A. front-right
+B. back-left
+C. front
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. back-right,B. back-left,False
+41,"Standing at counter, gazing at picture, where should refrigerator be?A. right
+B. front-left
+C. back-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. right,C. back-left,False
+42,"When positioned at counter facing picture, where can you find towel?A. back-right
+B. left
+C. front-right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. left,A. back-right,False
+43,"Standing at counter, gazing at door, where should refrigerator be?A. left
+B. back-left
+C. back
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-right,D. front-right,True
+44,"Standing at door, gazing at picture, where should towel be?A. right
+B. left
+C. back-right
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front,D. front,True
+45,"When positioned at door facing refrigerator, where can you find towel?A. front-right
+B. left
+C. back-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front-right,A. front-right,True
+46,"When positioned at counter facing door, where can you find towel?A. right
+B. back
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. left,C. left,True
+47,"With the camera's viewpoint as the front, which direction is the man facing in the image?A. back
+B. front
+C. left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back,C. left,False
+48,"Picture yourself as the man; which way are you looking in the scene?A. left
+B. front
+C. back-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+49,"With the camera's viewpoint as the front, which direction is the man looking at the computer facing in the image?A. front-right
+B. back-right
+C. left
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. left,C. left,True
+50,"Imagine you're the man looking at the computer in this image — which direction are you facing?A. right
+B. back
+C. back-left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+51,"From the perspective of the man who is looking at the computer, where is the man wearing a hat positioned?A. front-left
+B. back-left
+C. left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. back-right,D. back-right,True
+52,"How is the desk positioned with respect to the table?A. front-left
+B. front-right
+C. back-down
+D. above
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. back-down,B. front-right,False
+53,"Where is the chair located compared to the whiteboard from the camera's perspective?A. front-down
+B. back-right
+C. above-right
+D. down-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. back-right,D. down-left,False
+54,"Where is the chair located compared to the books from the camera's perspective?A. front-right
+B. back
+C. down
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. back,A. front-right,False
+55,"Can you describe the position of the desk relative to the books?A. back-right
+B. down-right
+C. front-down
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. down-right,D. front-right,False
+56,"Standing at desk, gazing at cabinet, where should whiteboard be?A. right
+B. front-right
+C. front-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. back,C. front-left,False
+57,"When positioned at cabinet facing whiteboard, where can you find books?A. back-right
+B. front-left
+C. back-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front-left,B. front-left,True
+58,"Standing at window, gazing at desk, where should whiteboard be?A. back-left
+B. back
+C. right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-left,D. front-left,True
+59,"Imagine standing at window looking towards cabinet, where is books?A. front-right
+B. back-right
+C. front-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-left,A. front-right,False
+60,"Standing at window, gazing at cabinet, where should whiteboard be?A. front-left
+B. back
+C. right
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front-left,A. front-left,True
+61,"Standing at desk, gazing at whiteboard, where should books be?A. back-left
+B. back
+C. right
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front,C. right,False
+62,"Imagine standing at desk looking towards cabinet, where is books?A. back-right
+B. left
+C. back
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-right,D. front-right,True
+63,"If you're looking at the table, where would you find the window?A. front
+B. above-left
+C. back
+D. front-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. back,B. above-left,False
+64,"If you stand at table facing door, where is whiteboard?A. right
+B. front-left
+C. back-right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. back-left,B. front-left,False
+65,"With the camera's viewpoint as the front, which direction is the woman facing in the image?A. back-left
+B. back-right
+C. left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back-right,B. back-right,True
+66,"As the woman in the photo, in which direction are you facing?A. back
+B. front
+C. back-left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+67,"Which hand is the woman holding the remote with?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,B. right,True
+68,"Taking the camera lens as the front, what direction is the man in white clothes looking toward?A. left
+B. front
+C. back
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. left,C. back,False
+69,"Imagine you're the man in white clothes in this image — which direction are you facing?A. back-right
+B. back-left
+C. right
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+70,"From the perspective of this man in white clothes, where is the wine bottle?A. front
+B. left
+C. back-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. front,A. front,True
+71,"With the camera's viewpoint as the front, which direction is the girl facing in the image?A. left
+B. front-right
+C. right
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. left,A. left,True
+72,"As the girl in the photo, in which direction are you facing?A. back-right
+B. back
+C. left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front-right,D. front-right,True
+73,"From the perspective of the girl, where was that boy positioned?A. back
+B. back-right
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,C. front,C. front,True
+74,"Taking the camera lens as the front, what direction is the boy looking toward?A. back
+B. right
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back,B. right,False
+75,"As the boy in the photo, in which direction are you facing?A. front
+B. left
+C. back-right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,A. front,True
+76,"From the perspective of the boy, where is the TV located?A. back-left
+B. front
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,C. right,B. front,False
+77,"Taking the camera's viewpoint as the front, which way is the man facing in the image?A. right
+B. front
+C. back-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. back-left,C. back-left,True
+78,"Picture yourself as the man; which way are you looking in the scene?A. front-right
+B. back-left
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front-right,A. front-right,True
+79,"From the perspective of the man, where is the tennis ball?A. right
+B. front
+C. left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. front,B. front,True
+80,"With the camera's viewpoint as the front, which direction is the man holding the baseball bat facing in the image?A. front
+B. back
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. right,C. right,True
+81,"As the man holding the baseball bat in the photo, in which direction are you facing?A. front-left
+B. right
+C. back
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. right,B. right,True
+82,"From the perspective of the man holding the baseball bat, where is the man squatting beside him?A. right
+B. back
+C. front
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. right,B. back,False
+83,"With the camera's viewpoint as the front, which direction is the girl in black clothes facing in the image?A. front
+B. back
+C. front-right
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back,B. back,True
+84,"As the girl in black clothes in the photo, in which direction are you facing?A. back-right
+B. front
+C. left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+85,"From the perspective of this girl in black clothes, where is the girl in purple clothes?A. back-left
+B. right
+C. front
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,B. right,True
+86,"With the camera's viewpoint as the front, which direction is the woman in black clothes facing in the image?A. front
+B. back
+C. left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back,B. back,True
+87,"Suppose you are in the woman in black clothes’s position, what direction are you facing?A. front-left
+B. front-right
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. back,C. back,True
+88,"From the perspective of this woman in black clothes, where is the person in red clothes?A. back-right
+B. left
+C. front
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. back-right,A. back-right,True
+89,"Taking the camera lens as the front, what direction is the man looking toward?A. front-right
+B. left
+C. front
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,B. left,False
+90,"Picture yourself as the man; which way are you looking in the scene?A. back
+B. front-right
+C. right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front-left,D. front-left,True
+91,"Taking the camera's viewpoint as the front, which way is the man wearing the red hat facing in the image?A. back-right
+B. front-right
+C. right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back-left,D. back-left,True
+92,"Picture yourself as the man wearing the red hat; which way are you looking in the scene?A. back
+B. front
+C. right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+93,"From the perspective of the man wearing the red hat, where is the man wearing the white hat?A. front-left
+B. back-left
+C. front
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. front-left,D. back-right,False
+94,"With the camera's viewpoint as the front, which direction is the giraff facing in the image?A. front
+B. front-left
+C. back
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. right,C. back,False
+95,"Picture yourself as the giraff; which way are you looking in the scene?A. back-right
+B. left
+C. front-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front-right,C. front-right,True
+96,"Which hand does the man use to hold the skateboard?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,B. right,True
+97,"Taking the camera's viewpoint as the front, which way is the man in blue facing in the image?A. back
+B. right
+C. left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. right,B. right,True
+98,"As the man in blue in the photo, in which direction are you facing?A. left
+B. back-right
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+99,"From the perspective of the man in blue clothes, where is the plane?A. back-left
+B. front-left
+C. front-right
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. front-left,B. front-left,True
+100,"Standing at table, gazing at door, where should window be?A. front-left
+B. front-right
+C. back
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front-right,A. front-left,False
+101,"Considering the camera's perspective as the front, what direction is the man facing within the picture?A. back
+B. left
+C. front
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. left,C. front,False
+102,"Imagine you're the man in this image — which direction are you facing?A. back-left
+B. front-right
+C. back-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front-right,B. front-right,True
+103,"Considering the camera's perspective as the front, what direction is the man in black facing within the picture?A. front-right
+B. back-right
+C. front-left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back-right,C. front-left,False
+104,"Suppose you are in the man in black’s position, what direction are you facing?A. left
+B. back-right
+C. right
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+105,"From the perspective of this man in black, where is the blue bag positioned?A. front-left
+B. back
+C. left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. back,D. front-right,False
+106,"Taking the camera's viewpoint as the front, which way is the woman facing in the image?A. front
+B. back-right
+C. left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back-right,B. back-right,True
+107,"As the woman in the photo, in which direction are you facing?A. front
+B. left
+C. back-right
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,A. front,True
+108,"Which hand is the woman holding the cell phone with?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,A. left,False
+109,"With the camera's viewpoint as the front, which direction is the sheep facing in the image?A. left
+B. front-right
+C. front
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,D. back,True
+110,"Picture yourself as the sheep; which way are you looking in the scene?A. back-left
+B. front-left
+C. back
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front-left,B. front-left,True
+111,"Taking the camera lens as the front, what direction is the man in red clothes looking toward?A. back-right
+B. back-left
+C. front-left
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back-right,A. back-right,True
+112,"Imagine you're the man in red clothes in this image — which direction are you facing?A. front-left
+B. right
+C. back-right
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front-left,A. front-left,True
+113,"From the perspective of this man in red clothes, where is the person wearing the black hat?A. left
+B. right
+C. back
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. left,C. back,False
+114,"Considering the camera's perspective as the front, what direction is the woman facing within the picture?A. front-left
+B. front
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,D. back,True
+115,"Suppose you are in the woman’s position, what direction are you facing?A. back-right
+B. front-left
+C. back
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front-left,B. front-left,True
+116,"From this woman's perspective, where is the man positioned?A. back-left
+B. front-left
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. right,D. right,True
+117,"Taking the camera's viewpoint as the front, which way is the man facing in the image?A. front
+B. left
+C. back-right
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. left,B. left,True
+118,"Imagine you're the man in this image — which direction are you facing?A. back
+B. right
+C. back-right
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+119,"With the camera's viewpoint as the front, which direction is the man facing in the image?A. right
+B. front-right
+C. front
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. left,D. left,True
+120,"Picture yourself as the man; which way are you looking in the scene?A. front
+B. back-right
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. left,A. front,False
+121,"With the camera's viewpoint as the front, which direction is the woman facing in the image?A. right
+B. front-right
+C. back-left
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. back-left,C. back-left,True
+122,"Imagine you're the woman in this image — which direction are you facing?A. back
+B. back-right
+C. front-right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. left,C. front-right,False
+123,"From this woman's perspective, where is this man positioned?A. front-left
+B. back
+C. left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. right,D. right,True
+124,"How is the sofa positioned with respect to the clothes?A. front-up
+B. back-down
+C. down-left
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. back-down,B. back-down,True
+125,"If you're looking at the pillow, where would you find the desk?A. above
+B. back-left
+C. above-left
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,D. right,True
+126,"Can you describe the position of the person relative to the desk?A. left
+B. above-right
+C. down
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. left,D. back,False
+127,"Where is the chair in relation to the bag?A. above
+B. back-right
+C. front-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. back-right,B. back-right,True
+128,"How is the sofa positioned with respect to the clothes?A. down
+B. right
+C. front-up
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. down,B. right,False
+129,"Where is the sofa located compared to the pillow from the camera's perspective?A. front
+B. above
+C. back-down
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. back-down,C. back-down,True
+130,"When positioned at sofa facing desk, where can you find bag?A. front-left
+B. front-right
+C. left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front-right,B. front-right,True
+131,"Standing at sofa, gazing at clothes, where should bag be?A. left
+B. right
+C. back
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. left,A. left,True
+132,"Standing at desk, gazing at door, where should whiteboard be?A. back-right
+B. front-right
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. left,B. front-right,False
+133,"When positioned at person facing desk, where can you find bag?A. front-right
+B. left
+C. back-right
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. left,A. front-right,False
+134,"Imagine standing at sofa looking towards whiteboard, where is bag?A. right
+B. front
+C. back
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front,B. front,True
+135,"If you stand at bookshelf facing door, where is clothes?A. back-left
+B. back-right
+C. front
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. back-left,A. back-left,True
+136,"Imagine standing at sofa looking towards person, where is bookshelf?A. back
+B. back-left
+C. front-right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-right,C. front-right,True
+137,"With the camera's viewpoint as the front, which direction is the man facing in the image?A. front-right
+B. left
+C. right
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. left,B. left,True
+138,"Imagine you're the man in this image — which direction are you facing?A. back
+B. front
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+139,"From a man's perspective, where is the woman positioned?A. right
+B. back-left
+C. back
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. right,A. right,True
+140,"With the camera's viewpoint as the front, which direction is the man wearing the blue hat facing in the image?A. right
+B. back-left
+C. back
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. right,D. front-left,False
+141,"As the man wearing the blue hat in the photo, in which direction are you facing?A. right
+B. back
+C. back-left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+142,"From the perspective of the man wearing the blue hat, in which direction is the tennis ball?A. front
+B. left
+C. back-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. front,A. front,True
+143,"Taking the camera lens as the front, what direction is the the man wearing gloves looking toward?A. left
+B. right
+C. front
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. right,B. right,True
+144,"Suppose you are in the the man wearing gloves’s position, what direction are you facing?A. back
+B. front
+C. right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+145,"From the perspective of the man wearing gloves, where is the man holding the bat?A. left
+B. right
+C. front
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. left,C. front,False
+146,"If you stand at table facing door, where is window?A. right
+B. back-right
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front,D. front,True
+147,"With the camera's viewpoint as the front, which direction is the man wearing glasses facing in the image?A. front
+B. back-right
+C. back-left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back-right,C. back-left,False
+148,"Suppose you are in the man wearing glasses’s position, what direction are you facing?A. back-left
+B. right
+C. front
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front,C. front,True
+149,"From the perspective of this man wearing glasses, in which direction is the other man?A. right
+B. back-left
+C. front
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. right,A. right,True
+150,"If you're looking at the lamp, where would you find the nightstand?A. down
+B. above-left
+C. back-left
+D. above
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. down,A. down,True
+151,"Where is the television located compared to the door from the camera's perspective?A. back-left
+B. right
+C. down-left
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,B. right,True
+152,"If you're looking at the lamp, where would you find the nightstand?A. down
+B. above-left
+C. back-right
+D. front-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. down,A. down,True
+153,"How is the cabinet positioned with respect to the table?A. back-up
+B. back-left
+C. front-left
+D. above
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. back-left,C. front-left,False
+154,"Where is the cabinet in relation to the refrigerator?A. down
+B. right
+C. back
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,B. right,True
+155,"Where is the nightstand in relation to the lamp?A. front-right
+B. back-right
+C. down
+D. above-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down,C. down,True
+156,"How is the door positioned with respect to the picture?A. back-up
+B. back-left
+C. front
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. back-left,C. front,False
+157,"Could you tell me the location of the cabinet in comparison to the television?A. above
+B. front-up
+C. back-up
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. down,D. down,True
+158,"Could you tell me the location of the cabinet in comparison to the television?A. front-left
+B. left
+C. down
+D. above-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down,C. down,True
+159,"Where is the cabinet in relation to the television?A. above
+B. down
+C. back-up
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. down,B. down,True
+160,"If you stand at television facing curtain, where is refrigerator?A. front-left
+B. front-right
+C. back-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front-right,D. back-right,False
+161,"Standing at table, gazing at television, where should picture be?A. back-right
+B. back
+C. right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-left,D. front-left,True
+162,"When positioned at cabinet facing table, where can you find curtain?A. front
+B. back-left
+C. back
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front,A. front,True
+163,"Imagine standing at table looking towards curtain, where is refrigerator?A. front-right
+B. back-left
+C. back-right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front-right,C. back-right,False
+164,"When positioned at bed facing table, where can you find lamp?A. left
+B. front-left
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. right,D. right,True
+165,"When positioned at television facing picture, where can you find curtain?A. right
+B. left
+C. front-right
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. left,B. left,True
+166,"When positioned at bed facing television, where can you find lamp?A. front
+B. left
+C. back-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front,D. back-right,False
+167,"Taking the camera lens as the front, what direction is the man looking toward?A. back-right
+B. right
+C. front-left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back-left,D. back-left,True
+168,"As the man in the photo, in which direction are you facing?A. back-left
+B. front
+C. left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+169,"Taking the camera lens as the front, what direction is the boy looking toward?A. front-right
+B. back-left
+C. left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back-left,D. back-right,False
+170,"Picture yourself as the boy; which way are you looking in the scene?A. back-right
+B. back
+C. right
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+171,"From this boy's perspective, where is the man positioned?A. back
+B. front-right
+C. left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,C. left,A. back,False
+172,"Considering the camera's perspective as the front, what direction is the man riding a bicycle facing within the picture?A. front-right
+B. back-right
+C. right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. front-left,D. front-left,True
+173,"Picture yourself as the man riding a bicycle; which way are you looking in the scene?A. right
+B. back-right
+C. front
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front,C. front,True
+174,"From the perspective of the man riding a bicycle, where are the two standing people positioned?A. front-left
+B. front-right
+C. back-right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. front-left,B. front-right,False
+175,"Considering the camera's perspective as the front, what direction is the woman wearing the red hat facing within the picture?A. front-left
+B. back
+C. front-right
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. front-left,B. back,False
+176,"Imagine you're the woman wearing the red hat in this image — which direction are you facing?A. back
+B. back-left
+C. front-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front-left,C. front-right,False
+177,"From the perspective of the woman wearing the red hat, where is the woman wearing the black hat?A. front-right
+B. back
+C. left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,C. left,C. left,True
+178,"Considering the camera's perspective as the front, what direction is the boy facing within the picture?A. left
+B. back
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. right,B. back,False
+179,"Suppose you are in the boy’s position, what direction are you facing?A. right
+B. front
+C. back-left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. right,A. right,True
+180,"From the boy's perspective, where is the frisbee positioned?A. front
+B. back-left
+C. right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,C. right,C. right,True
+181,"Taking the camera lens as the front, what direction is the man looking toward?A. left
+B. front-right
+C. right
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,A. left,False
+182,"As the man in the photo, in which direction are you facing?A. back
+B. left
+C. back-left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+183,"Taking the camera's viewpoint as the front, which way is the woman facing in the image?A. front
+B. front-right
+C. back-left
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. back-left,C. back-left,True
+184,"Picture yourself as the woman; which way are you looking in the scene?A. front-left
+B. left
+C. back-right
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front-right,D. front-right,True
+185,"From a woman's perspective, where is the man positioned?A. back
+B. left
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. right,B. left,False
+186,"Standing at table, gazing at door, where should window be?A. front-right
+B. back
+C. right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-left,D. front-left,True
+187,"Considering the camera's perspective as the front, what direction is the man standing and wearing white clothes facing within the picture?A. back-right
+B. front
+C. back-left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back-right,A. back-right,True
+188,"Picture yourself as the man standing and wearing white clothes; which way are you looking in the scene?A. right
+B. back-left
+C. front
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front,A. right,False
+189,"From the perspective of the man standing and wearing white clothes, where is the flying man positioned?A. front-right
+B. back-left
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. front-right,A. front-right,True
+190,"Taking the camera lens as the front, what direction is the man looking toward?A. front
+B. front-right
+C. front-left
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,D. back,True
+191,"Suppose you are in the man’s position, what direction are you facing?A. back-left
+B. front-right
+C. left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front-right,B. front-right,True
+192,"From a man's perspective, where is the woman positioned?A. left
+B. front-right
+C. right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. left,A. left,True
+193,"Taking the camera lens as the front, what direction is the woman looking toward?A. front
+B. right
+C. back
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. back,C. back,True
+194,"Suppose you are in the woman’s position, what direction are you facing?A. front
+B. back-right
+C. back
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,A. front,True
+195,"From the perspective of the woman in purple clothes, where is the man in black clothes located?A. back-right
+B. back
+C. left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,C. left,C. left,True
+196,"Where is the cabinet located compared to the television from the camera's perspective?A. down-left
+B. front
+C. right
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. right,C. right,True
+197,"Could you tell me the location of the sofa in comparison to the desk?A. right
+B. back
+C. front
+D. front-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,B. back,False
+198,"Where is the sofa in relation to the desk?A. above-left
+B. back
+C. down-right
+D. above-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down-right,B. back,False
+199,"Where is the sofa in relation to the desk?A. back-right
+B. down-right
+C. front-left
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. down-right,A. back-right,False
+200,"Where is the desk in relation to the cabinet?A. back-right
+B. front-left
+C. front-right
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. down,D. down,True
+201,"Could you tell me the location of the desk in comparison to the television?A. above
+B. back
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,D. right,True
+202,"How is the television positioned with respect to the box?A. above-left
+B. front
+C. above-right
+D. back-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. above-right,A. above-left,False
+203,"Where is the television in relation to the box?A. front
+B. back-up
+C. above-left
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. above-left,C. above-left,True
+204,"Where is the desk located compared to the picture from the camera's perspective?A. above-right
+B. above
+C. down
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down,C. down,True
+205,"How is the desk positioned with respect to the picture?A. back-right
+B. above
+C. above-right
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. down,D. down,True
+206,"Where is the desk in relation to the picture?A. above-left
+B. down
+C. above
+D. above-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. down,B. down,True
+207,"Where is the sofa located compared to the table from the camera's perspective?A. above-left
+B. right
+C. front-left
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,B. right,True
+208,"If you're looking at the table, where would you find the chair?A. front-up
+B. back
+C. left
+D. down-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. left,A. front-up,False
+209,"Can you describe the position of the table relative to the television?A. above-right
+B. back-up
+C. down
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,C. down,False
+210,"How is the sofa positioned with respect to the picture?A. front-right
+B. back-right
+C. above-left
+D. down-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. down-right,B. back-right,False
+211,"Imagine standing at shelves looking towards picture, where is box?A. back-right
+B. front-left
+C. right
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front-left,B. front-left,True
+212,"Imagine standing at sofa looking towards table, where is box?A. right
+B. front
+C. back-right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. left,B. front,False
+213,"Imagine standing at desk looking towards table, where is television?A. back-left
+B. back
+C. front-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. back-left,C. front-right,False
+214,"If you stand at shelves facing table, where is box?A. front-left
+B. right
+C. back-right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. back-left,A. front-left,False
+215,"Standing at picture, gazing at table, where should box be?A. back-right
+B. front-left
+C. back
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-right,D. front-right,True
+216,"Imagine standing at desk looking towards table, where is box?A. front-right
+B. back-right
+C. front-left
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front-right,A. front-right,True
+217,"When positioned at sofa facing television, where can you find box?A. front
+B. left
+C. back-right
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. left,A. front,False
+218,"Taking the camera's viewpoint as the front, which way is the man facing in the image?A. back-right
+B. front-right
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back-right,C. left,False
+219,"Suppose you are in the man’s position, what direction are you facing?A. back-right
+B. left
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+220,"From the perspective of men, where is the football positioned?A. left
+B. back-right
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. front,D. front,True
+221,"With the camera's viewpoint as the front, which direction is the man facing in the image?A. front
+B. back-left
+C. front-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back-right,D. back-right,True
+222,"Imagine you're the man in this image — which direction are you facing?A. front
+B. left
+C. back-right
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,B. left,False
+223,"From this man's perspective, where is the tennis ball positioned?A. back
+B. back-right
+C. back-left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. front,D. front,True
+224,"Taking the camera's viewpoint as the front, which way is the black sheep facing in the image?A. front-right
+B. back
+C. left
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. left,B. back,False
+225,"As the black sheep in the photo, in which direction are you facing?A. front
+B. left
+C. back
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,A. front,True
+226,"From the perspective of the black sheep, where are the other white sheep located?A. front
+B. back
+C. right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,C. right,B. back,False
+227,"Taking the camera lens as the front, what direction is the giraffe looking toward?A. back
+B. right
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back,C. left,False
+228,"Suppose you are in the giraffe’s position, what direction are you facing?A. left
+B. back-right
+C. front
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front,C. front,True
+229,"Taking the camera's viewpoint as the front, which way is the boy facing in the image?A. front-left
+B. left
+C. right
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,D. back,True
+230,"Suppose you are in the boy’s position, what direction are you facing?A. back-left
+B. left
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+231,"From the boy's perspective, where is the bowl positioned?A. back-right
+B. front
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. front,B. front,True
+232,"With the camera's viewpoint as the front, which direction is the blonde woman facing in the image?A. back-left
+B. front-left
+C. back-right
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back-left,D. front-right,False
+233,"Imagine you're the blonde woman in this image — which direction are you facing?A. right
+B. back
+C. front-left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. right,C. front-left,False
+234,"From the perspective of the blonde woman, where is the redhead woman located?A. back-right
+B. right
+C. back-left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. back-right,C. back-left,False
+235,"Taking the camera's viewpoint as the front, which way is the man facing in the image?A. front-right
+B. back
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back,B. back,True
+236,"Picture yourself as the man; which way are you looking in the scene?A. front-right
+B. right
+C. back-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front-left,D. front-left,True
+237,"Which hand is the man holding the tennis racket with?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,A. left,False
+238,"From the perspective of the man in red clothes, where is the man in green clothes?A. right
+B. left
+C. front
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. left,C. front,False
+239,"Which hand does this man use to hold the tennis racket?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,A. left,False
+240,"Can you describe the position of the table relative to the lamp?A. front
+B. front-up
+C. down-right
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down-right,C. down-right,True
+241,"Where is the lamp located compared to the chair from the camera's perspective?A. back-down
+B. above
+C. back-right
+D. front-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. above,B. above,True
+242,"Could you tell me the location of the nightstand in comparison to the lamp?A. back-left
+B. front-left
+C. down
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down,C. down,True
+243,"Where is the nightstand located compared to the bed from the camera's perspective?A. right
+B. left
+C. front
+D. above
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,A. right,True
+244,"Where is the table in relation to the lamp?A. back-left
+B. back
+C. front-down
+D. down-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. back-left,D. down-right,False
+245,"How is the clothes positioned with respect to the television?A. front-up
+B. front-down
+C. back-down
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,C. back-down,False
+246,"Where is the sofa located compared to the desk from the camera's perspective?A. front
+B. back-up
+C. back-down
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,D. left,True
+247,"Could you tell me the location of the bag in comparison to the clothes?A. down
+B. above-right
+C. back-left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. down,A. down,True
+248,"If you're looking at the clothes, where would you find the bag?A. back-right
+B. down
+C. back-left
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. down,B. down,True
+249,"How is the lamp positioned with respect to the desk?A. front
+B. above
+C. down-left
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. above,B. above,True
+250,"If you're looking at the chair, where would you find the lamp?A. front
+B. back-down
+C. above
+D. down-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. above,C. above,True
+251,"If you're looking at the desk, where would you find the sofa?A. left
+B. right
+C. down
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,A. left,False
+252,"How is the sofa positioned with respect to the chair?A. right
+B. front-up
+C. down-left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,A. right,True
+253,"Could you tell me the location of the nightstand in comparison to the lamp?A. back-right
+B. back-up
+C. down
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down,C. down,True
+254,"If you're looking at the chair, where would you find the sofa?A. down-left
+B. above
+C. right
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. right,C. right,True
+255,"If you stand at sofa facing television, where is window?A. right
+B. back
+C. front-left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. right,A. right,True
+256,"When positioned at sofa facing nightstand, where can you find clothes?A. back-left
+B. front-right
+C. front-left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-left,C. front-left,True
+257,"If you stand at bag facing cabinet, where is window?A. front
+B. back-left
+C. right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. right,B. back-left,False
+258,"If you stand at bag facing clothes, where is window?A. front-right
+B. back-right
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. left,D. left,True
+259,"If you stand at desk facing mirror, where is window?A. back-left
+B. front-left
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. right,A. back-left,False
+260,"If you stand at nightstand facing desk, where is mirror?A. front
+B. back
+C. back-right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front,A. front,True
+261,"Imagine standing at sofa looking towards television, where is mirror?A. front-right
+B. back
+C. back-left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-left,D. front-left,True
+262,"Which hand does the man in white use to hold the skateboard?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. left,B. right,False
+263,"Where is the desk in relation to the books?A. front
+B. front-right
+C. left
+D. above-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. left,C. left,True
+264,"How is the desk positioned with respect to the books?A. front-down
+B. left
+C. back-down
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. left,B. left,True
+265,"Where is the desk in relation to the books?A. back-up
+B. left
+C. front
+D. front-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. left,B. left,True
+266,"Where is the desk located compared to the books from the camera's perspective?A. back
+B. back-right
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. left,C. left,True
+267,"Could you tell me the location of the desk in comparison to the books?A. back-down
+B. left
+C. back-up
+D. front-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. left,B. left,True
+268,"Can you describe the position of the desk relative to the books?A. back
+B. front-up
+C. left
+D. front-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. left,C. left,True
+269,"How is the desk positioned with respect to the books?A. front-down
+B. front-up
+C. back-right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. back-right,D. back-left,False
+270,"Considering the camera's perspective as the front, what direction is the man facing within the picture?A. right
+B. left
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. right,C. back,False
+271,"As the man in the photo, in which direction are you facing?A. front-left
+B. back
+C. front-right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front-right,C. front-right,True
+272,"Taking the camera's viewpoint as the front, which way is the cow facing in the image?A. left
+B. back-right
+C. back-left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back-right,B. back-right,True
+273,"Imagine you're the cow in this image — which direction are you facing?A. back-right
+B. left
+C. back-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front-right,D. front-right,True
+274,"From the perspective of this cow, in which direction is the house?A. right
+B. left
+C. front-right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. left,B. left,True
+275,"Where is the counter located compared to the door from the camera's perspective?A. front
+B. right
+C. down-left
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,B. right,True
+276,"Where is the cabinet located compared to the counter from the camera's perspective?A. right
+B. down
+C. above-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,B. down,False
+277,"If you're looking at the counter, where would you find the sink?A. front-up
+B. left
+C. above
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,B. left,False
+278,"Where is the sink located compared to the counter from the camera's perspective?A. left
+B. back-right
+C. front-up
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,A. left,False
+279,"Where is the sink in relation to the counter?A. back
+B. right
+C. front-up
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,D. left,True
+280,"If you're looking at the sink, where would you find the refrigerator?A. left
+B. down-left
+C. right
+D. front-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. right,C. right,True
+281,"With the camera's viewpoint as the front, which direction is the woman in green facing in the image?A. back
+B. front-left
+C. right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. right,C. right,True
+282,"Suppose you are in the woman in green’s position, what direction are you facing?A. back-left
+B. front
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+283,"From the perspective of the woman in green clothes, where is the horse?A. front
+B. back-left
+C. back
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. front,A. front,True
+284,"Taking the camera lens as the front, what direction is the man looking toward?A. back-left
+B. front
+C. front-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back-left,A. back-left,True
+285,"Picture yourself as the man; which way are you looking in the scene?A. left
+B. front
+C. front-left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. right,D. right,True
+286,"Considering the camera's perspective as the front, what direction is the man facing within the picture?A. front-right
+B. front
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,D. back,True
+287,"Suppose you are in the man’s position, what direction are you facing?A. back-right
+B. right
+C. front-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front-left,C. front-left,True
+288,"From the perspective of the man, where is the tennis ball?A. back
+B. front-right
+C. front-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. front-right,C. front-left,False
+289,"Which hand is this man holding the cell phone with?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,A. left,False
+290,"With the camera's viewpoint as the front, which direction is the man facing in the image?A. front-right
+B. front
+C. back
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. back,C. back,True
+291,"As the man in the photo, in which direction are you facing?A. front
+B. right
+C. back
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,A. front,True
+292,"From the man's perspective, where is the bed located?A. right
+B. front-left
+C. back-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. right,A. right,True
+293,"Considering the camera's perspective as the front, what direction is the cat facing within the picture?A. back-left
+B. right
+C. front-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. right,A. back-left,False
+294,"Picture yourself as the cat; which way are you looking in the scene?A. right
+B. back
+C. front
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front,C. front,True
+295,"From the perspective of this cat, where is the door located?A. right
+B. left
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. right,C. back,False
+296,"Could you tell me the location of the door in comparison to the table?A. back-up
+B. front-right
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,D. left,True
+297,"Could you tell me the location of the box in comparison to the whiteboard?A. back-left
+B. back-up
+C. down-right
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down-right,C. down-right,True
+298,"When positioned at box facing whiteboard, where can you find door?A. front-right
+B. back-right
+C. left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. back-right,B. back-right,True
+299,"Taking the camera lens as the front, what direction is the man sitting in a wheelchair looking toward?A. back-right
+B. front
+C. front-left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back-right,A. back-right,True
+300,"Imagine you're the man sitting in a wheelchair in this image — which direction are you facing?A. right
+B. front-left
+C. back
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front-left,B. front-left,True
+301,"From the perspective of the man sitting in a wheelchair, where is the man in white clothes located beside him?A. front
+B. back-right
+C. back
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. left,D. left,True
+302,"How is the cabinet positioned with respect to the door?A. back-right
+B. left
+C. front
+D. front-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. left,B. left,True
+303,"If you're looking at the books, where would you find the table?A. front
+B. right
+C. above
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,A. front,False
+304,"Where is the cabinet in relation to the door?A. front
+B. back-right
+C. above
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,D. left,True
+305,"Could you tell me the location of the cabinet in comparison to the door?A. back-right
+B. back-down
+C. front-up
+D. front-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. front-down,B. back-down,False
+306,"How is the table positioned with respect to the chair?A. back-down
+B. back-up
+C. right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. right,C. right,True
+307,"Where is the nightstand in relation to the cabinet?A. front-left
+B. above-right
+C. back-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. back-left,A. front-left,False
+308,"Where is the clothes in relation to the bag?A. left
+B. back-down
+C. above
+D. back-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. above,D. back-up,False
+309,"Where is the chair located compared to the books from the camera's perspective?A. back
+B. front-right
+C. down-left
+D. above
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down-left,C. down-left,True
+310,"Where is the nightstand in relation to the cabinet?A. down-right
+B. back-up
+C. right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. front-left,D. front-left,True
+311,"How is the clothes positioned with respect to the bag?A. right
+B. front-down
+C. front-right
+D. back-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. back-up,D. back-up,True
+312,"How is the clothes positioned with respect to the bag?A. front-right
+B. down-right
+C. above
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. above,C. above,True
+313,"Can you describe the position of the clothes relative to the bag?A. front-down
+B. above
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. above,B. above,True
+314,"Could you tell me the location of the table in comparison to the chair?A. right
+B. front-down
+C. back-down
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,A. right,True
+315,"Could you tell me the location of the nightstand in comparison to the cabinet?A. left
+B. back
+C. down-right
+D. above
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. left,A. left,True
+316,"When positioned at nightstand facing table, where can you find books?A. front
+B. back-right
+C. back-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front,A. front,True
+317,"When positioned at cabinet facing picture, where can you find books?A. back-right
+B. right
+C. front-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-left,C. front-left,True
+318,"If you stand at nightstand facing picture, where is books?A. front-left
+B. back
+C. back-right
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front-left,A. front-left,True
+319,"If you stand at bed facing chair, where is books?A. back
+B. front
+C. back-left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front,B. front,True
+320,"When positioned at toilet facing chair, where can you find books?A. front
+B. back-left
+C. back
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. right,A. front,False
+321,"When positioned at nightstand facing chair, where can you find picture?A. left
+B. back
+C. back-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-right,D. front-right,True
+322,"If you stand at table facing chair, where is books?A. front
+B. back-left
+C. right
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. right,A. front,False
+323,"Taking the camera lens as the front, what direction is the man sitting on the elephant looking toward?A. front-left
+B. front
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. right,C. right,True
+324,"Suppose you are in the man sitting on the elephant’s position, what direction are you facing?A. left
+B. back-left
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front,C. front,True
+325,"From the perspective of the man sitting on the elephant, where is the man in the river?A. back
+B. left
+C. front
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. left,B. left,True
+326,"Taking the camera lens as the front, what direction is the man looking toward?A. front
+B. front-right
+C. front-left
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,D. back,True
+327,"As the man in the photo, in which direction are you facing?A. left
+B. front-left
+C. back-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front-right,D. front-right,True
+328,"Which hand is the man holding the cup with?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,A. left,False
+329,"Where is the cabinet in relation to the table?A. down-right
+B. right
+C. back-left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,C. back-left,False
+330,"Could you tell me the location of the cabinet in comparison to the chair?A. front-right
+B. above
+C. front-left
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,C. front-left,False
+331,"Could you tell me the location of the chair in comparison to the shelves?A. right
+B. back-left
+C. above-left
+D. back-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,A. right,True
+332,"Where is the chair located compared to the shelves from the camera's perspective?A. left
+B. front
+C. down
+D. front-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. left,A. left,True
+333,"Where is the cabinet in relation to the chair?A. front-right
+B. back-left
+C. down-left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. front-left,D. front-left,True
+334,"Imagine standing at shelves looking towards whiteboard, where is lamp?A. back-left
+B. back
+C. back-right
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-right,D. front-right,True
+335,"Taking the camera lens as the front, what direction is the man looking toward?A. back
+B. back-right
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. left,C. left,True
+336,"Imagine you're the man in this image — which direction are you facing?A. back-right
+B. left
+C. front-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. left,C. front-right,False
+337,"Taking the camera's viewpoint as the front, which way is the man facing in the image?A. front
+B. front-left
+C. right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. right,C. right,True
+338,"Suppose you are in the man’s position, what direction are you facing?A. front
+B. right
+C. back-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,A. front,True
+339,"Taking the camera's viewpoint as the front, which way is the man facing in the image?A. front
+B. front-right
+C. right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back-left,D. back-left,True
+340,"Imagine you're the man in this image — which direction are you facing?A. left
+B. front
+C. back
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+341,"Which hand does this man use to hold the racket?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,B. right,True
+342,"Taking the camera's viewpoint as the front, which way is the man in white clothes facing in the image?A. right
+B. back-right
+C. front-left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back-left,D. back-left,True
+343,"Imagine you're the man in white clothes in this image — which direction are you facing?A. back-right
+B. back
+C. back-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front-right,D. front-right,True
+344,"From the perspective of the man in white clothes, where is the man in blue-green clothes who is bending over?A. front
+B. front-right
+C. front-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. back-right,D. back-right,True
+345,"Could you tell me the location of the bed in comparison to the table?A. back-left
+B. front-down
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,D. right,True
+346,"How is the bed positioned with respect to the table?A. left
+B. down-left
+C. back-right
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. front,C. back-right,False
+347,"Where is the picture in relation to the mirror?A. front
+B. back-down
+C. left
+D. down-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. left,C. left,True
+348,"Can you describe the position of the table relative to the mirror?A. right
+B. above
+C. above-left
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,A. right,True
+349,"If you're looking at the mirror, where would you find the bed?A. front-left
+B. down
+C. above
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,D. right,True
+350,"Imagine standing at bed looking towards table, where is mirror?A. back-right
+B. right
+C. back-left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-left,D. front-left,True
+351,"Taking the camera lens as the front, what direction is the girl looking toward?A. front-right
+B. right
+C. front
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,D. back,True
+352,"As the girl in the photo, in which direction are you facing?A. front
+B. back
+C. left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,A. front,True
+353,"From the girl's perspective, where is the potted plant positioned?A. back-left
+B. back-right
+C. front
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. back-right,B. back-right,True
+354,"Can you describe the position of the table relative to the bag?A. back-right
+B. back-down
+C. above-right
+D. down-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. back-right,A. back-right,True
+355,"Can you describe the position of the bag relative to the picture?A. back-left
+B. above
+C. front-right
+D. down-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. down-right,D. down-right,True
+356,"If you're looking at the table, where would you find the chair?A. front-down
+B. above
+C. back-up
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,D. left,True
+357,"If you're looking at the picture, where would you find the bag?A. down-left
+B. down-right
+C. above
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. back-right,B. down-right,False
+358,"Can you describe the position of the table relative to the bag?A. back
+B. front-up
+C. right
+D. down-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. right,C. right,True
+359,"How is the cabinet positioned with respect to the counter?A. front-left
+B. back-up
+C. down
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down,C. down,True
+360,"Could you tell me the location of the table in comparison to the bag?A. down
+B. front
+C. back-up
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,D. right,True
+361,"If you stand at picture facing door, where is counter?A. front
+B. back
+C. right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front,C. right,False
+362,"Standing at window, gazing at cabinet, where should bag be?A. back-right
+B. back-left
+C. front-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-left,C. front-left,True
+363,"When positioned at cabinet facing bag, where can you find counter?A. back
+B. left
+C. front-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-right,A. back,False
+364,"Imagine standing at window looking towards picture, where is counter?A. front-left
+B. back-right
+C. front-right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-right,B. back-right,False
+365,"Standing at cabinet, gazing at door, where should counter be?A. back-right
+B. back-left
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front,D. front,True
+366,"If you stand at window facing bag, where is counter?A. left
+B. front-right
+C. back-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front-right,B. front-right,True
+367,"Standing at cabinet, gazing at picture, where should door be?A. front-right
+B. back
+C. front-left
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front-right,A. front-right,True
+368,"When positioned at table facing window, where can you find whiteboard?A. back-left
+B. front-right
+C. front-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. back-right,B. front-right,False
+369,"Taking the camera lens as the front, what direction is the man in white clothes looking toward?A. front-right
+B. left
+C. front
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,B. left,False
+370,"Imagine you're the man in white clothes in this image — which direction are you facing?A. front
+B. back-right
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,C. left,False
+371,"From the perspective of the man in white clothes, where is the man in blue clothes?A. front-left
+B. back
+C. back-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. front-left,D. front-right,False
+372,"Taking the camera lens as the front, what direction is the man looking toward?A. left
+B. right
+C. back-right
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. left,A. left,True
+373,"Suppose you are in the man’s position, what direction are you facing?A. front
+B. back-left
+C. right
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front,A. front,True
+374,"From this man's perspective, where is the laptop positioned?A. back-right
+B. back
+C. back-left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. front,D. front,True
+375,"With the camera's viewpoint as the front, which direction is the horse facing in the image?A. back-left
+B. left
+C. back-right
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. back-right,C. back-right,True
+376,"As the horse in the photo, in which direction are you facing?A. left
+B. front
+C. back
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+377,"From this perspective of the horse, where is the trolley located?A. back
+B. left
+C. front-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. back,A. back,True
+378,"From the perspective of this cat, where is the TV positioned?A. back-right
+B. left
+C. back-left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. front,D. front,True
+379,"With the camera's viewpoint as the front, which direction is the rooster facing in the image?A. front-right
+B. right
+C. left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. left,C. left,True
+380,"Picture yourself as the rooster; which way are you looking in the scene?A. back-right
+B. front
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+381,"From the perspective of the rooster, where is the sea?A. front
+B. right
+C. left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,B. right,True
+382,"Taking the camera lens as the front, what direction is the man in black looking toward?A. back-left
+B. left
+C. right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. right,C. right,True
+383,"Suppose you are in the man in black’s position, what direction are you facing?A. back
+B. back-left
+C. front-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front-right,C. front-left,False
+384,"From the perspective of the man in black, in which direction is the man in red?A. back-left
+B. front-right
+C. back-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. front-left,C. back-right,False
+385,"Considering the camera's perspective as the front, what direction is the woman facing within the picture?A. front-left
+B. back-left
+C. back-right
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. back-right,C. back-right,True
+386,"Imagine you're the woman in this image — which direction are you facing?A. front-right
+B. back-left
+C. back
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front-right,A. front-right,True
+387,"Which hand is this woman using to hold the hot dog?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,B. right,True
+388,"How is the pillow positioned with respect to the shelves?A. back-right
+B. back-down
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. left,C. left,True
+389,"Where is the desk in relation to the lamp?A. back-left
+B. back-right
+C. front-right
+D. down-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. back-left,C. front-right,False
+390,"How is the chair positioned with respect to the pillow?A. right
+B. back
+C. down
+D. above
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,A. right,True
+391,"Could you tell me the location of the desk in comparison to the shelves?A. above-left
+B. down
+C. above-right
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. down,B. down,True
+392,"If you stand at desk facing pillow, where is box?A. left
+B. right
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. right,A. left,False
+393,"Imagine standing at desk looking towards lamp, where is box?A. right
+B. back
+C. left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. left,C. left,True
+394,"When positioned at sofa facing desk, where can you find lamp?A. left
+B. right
+C. back-left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. right,D. front,False
+395,"If you stand at shelves facing lamp, where is box?A. front-right
+B. right
+C. front-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-left,C. front-left,True
+396,"Standing at desk, gazing at pillow, where should shelves be?A. back-left
+B. front-right
+C. front-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. back-right,B. front-right,False
+397,"Standing at pillow, gazing at lamp, where should box be?A. back-left
+B. right
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front,B. right,False
+398,"Imagine standing at sofa looking towards pillow, where is lamp?A. left
+B. back-left
+C. front-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-right,D. front-right,True
+399,"With the camera's viewpoint as the front, which direction is the woman in red clothes facing in the image?A. back-left
+B. back-right
+C. front-right
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back-right,C. front-right,False
+400,"Imagine you're the woman in red clothes in this image — which direction are you facing?A. back-left
+B. front-right
+C. right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. back-left,D. front-left,False
+401,"From the perspective of the woman in red clothes, where is the man in green clothes located?A. back-right
+B. left
+C. back
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. left,B. left,True
+402,"Considering the camera's perspective as the front, what direction is the woman facing within the picture?A. right
+B. back-left
+C. front-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back-left,B. back-left,True
+403,"Imagine you're the woman in this image — which direction are you facing?A. back
+B. back-right
+C. front-left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front-left,C. front-left,True
+404,"Taking the camera lens as the front, what direction is the man in white clothes who is not wearing a hat looking toward?A. left
+B. front-right
+C. back
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. back,C. back,True
+405,"Picture yourself as the man in white clothes who is not wearing a hat; which way are you looking in the scene?A. right
+B. front
+C. back-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+406,"From the perspective of this man in white clothes who is not wearing a hat, where is the clock located?A. back
+B. back-right
+C. front
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,C. front,C. front,True
+407,"Considering the camera's perspective as the front, what direction is the boy facing within the picture?A. left
+B. front
+C. back
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. right,C. back,False
+408,"As the boy in the photo, in which direction are you facing?A. left
+B. back-right
+C. back-left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+409,"From this boy's perspective, where is the cat?A. back-left
+B. right
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. front,D. front,True
+410,"Taking the camera's viewpoint as the front, which way is the man facing in the image?A. right
+B. front
+C. front-left
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,D. back,True
+411,"Suppose you are in the man’s position, what direction are you facing?A. front-right
+B. left
+C. back
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front-right,A. front-right,True
+412,"From this man's perspective, in which direction is the woman beside him?A. front
+B. left
+C. right
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. left,B. left,True
+413,"Imagine standing at table looking towards door, where is window?A. front-left
+B. back
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. right,B. back,False
+414,"Considering the camera's perspective as the front, what direction is the cow facing within the picture?A. front
+B. right
+C. back
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. back,C. back,True
+415,"Suppose you are in the cow’s position, what direction are you facing?A. front-right
+B. right
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. left,C. left,True
+416,"Taking the camera lens as the front, what direction is the giraffe looking toward?A. front-right
+B. right
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,D. back,C. left,False
+417,"Imagine you're the giraffe in this image — which direction are you facing?A. back-left
+B. left
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+418,"How is the box positioned with respect to the table?A. front-right
+B. front
+C. front-up
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,D. left,True
+419,"Could you tell me the location of the window in comparison to the bag?A. back-left
+B. front-up
+C. back-up
+D. down-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. back-left,B. front-up,False
+420,"Could you tell me the location of the table in comparison to the bag?A. left
+B. back-down
+C. above
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. left,A. left,True
+421,"How is the table positioned with respect to the pillow?A. front-left
+B. back-down
+C. front-down
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. back-right,B. back-down,False
+422,"If you're looking at the box, where would you find the shelves?A. left
+B. front
+C. back-right
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. left,A. left,True
+423,"If you're looking at the table, where would you find the box?A. right
+B. back-up
+C. front-right
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,D. left,True
+424,"Can you describe the position of the pillow relative to the sofa?A. down
+B. front-right
+C. front
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. down,A. down,True
+425,"How is the door positioned with respect to the picture?A. front-left
+B. down-left
+C. back-right
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. back-right,A. front-left,False
+426,"If you're looking at the picture, where would you find the door?A. front-left
+B. down
+C. back-up
+D. above-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. down,A. front-left,False
+427,"Could you tell me the location of the sofa in comparison to the box?A. back-up
+B. right
+C. front-left
+D. above
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,B. right,True
+428,"How is the person positioned with respect to the chair?A. back-left
+B. back-right
+C. front-up
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. back-right,B. back-right,True
+429,"How is the table positioned with respect to the pillow?A. back
+B. left
+C. down-right
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. left,A. back,False
+430,"When positioned at door facing curtain, where can you find box?A. front-right
+B. back-left
+C. front-left
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front-right,A. front-right,True
+431,"When positioned at door facing picture, where can you find box?A. back-left
+B. front-right
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front-right,B. front-right,True
+432,"Imagine standing at picture looking towards curtain, where is chair?A. left
+B. back-left
+C. back-right
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-right,D. front-right,True
+433,"Standing at picture, gazing at curtain, where should box be?A. left
+B. back-left
+C. back-right
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front-right,D. front-right,True
+434,"If you stand at picture facing curtain, where is bookshelf?A. back-right
+B. front-left
+C. left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front-left,D. front-right,False
+435,"Imagine standing at door looking towards picture, where is curtain?A. back-left
+B. front
+C. back
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front,B. front,True
+436,"Standing at door, gazing at picture, where should chair be?A. back-left
+B. back-right
+C. front-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-left,D. front-right,False
+437,"Taking the camera lens as the front, what direction is the woman looking toward?A. front-right
+B. back-left
+C. front
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back-left,B. back-left,True
+438,"Suppose you are in the woman’s position, what direction are you facing?A. back-left
+B. back-right
+C. front-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front-left,C. front-left,True
+439,"Which hand does the woman use to hold the tennis racket?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,A. left,False
+440,"Taking the camera lens as the front, what direction is the white sheep looking toward?A. back-right
+B. left
+C. front
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. left,A. back-right,False
+441,"Picture yourself as the white sheep; which way are you looking in the scene?A. back
+B. front-left
+C. back-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front-left,B. front-left,True
+442,"From the perspective of the white sheep, where is the black sheep beside it?A. back
+B. front-right
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. left,D. left,True
+443,"Taking the camera lens as the front, what direction is the boy looking toward?A. back-left
+B. front-right
+C. front-left
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back-left,A. back-left,True
+444,"As the boy in the photo, in which direction are you facing?A. back-left
+B. front
+C. back
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+445,"Which hand does this boy use to hold the remote control?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. left,A. left,True
+446,"With the camera's viewpoint as the front, which direction is the man facing in the image?A. back
+B. left
+C. right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. left,B. left,True
+447,"Suppose you are in the man’s position, what direction are you facing?A. front-left
+B. back
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. right,C. right,True
+448,"If you're looking at the counter, where would you find the cabinet?A. back
+B. back-right
+C. right
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. down,D. down,True
+449,"Could you tell me the location of the cabinet in comparison to the refrigerator?A. back-down
+B. above-left
+C. left
+D. down-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. left,A. back-down,False
+450,"How is the table positioned with respect to the cabinet?A. right
+B. front-down
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,A. right,True
+451,"How is the cabinet positioned with respect to the counter?A. above
+B. back
+C. front-up
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. down,D. down,True
+452,"Standing at table, gazing at refrigerator, where should counter be?A. back-left
+B. back-right
+C. front-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. back-right,D. front-left,False
+453,"How is the desk positioned with respect to the bag?A. back-left
+B. front
+C. right
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. right,D. back-down,False
+454,"If you're looking at the lamp, where would you find the picture?A. above-right
+B. front-left
+C. down-right
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. back,A. above-right,False
+455,"Could you tell me the location of the desk in comparison to the bag?A. back-down
+B. down-right
+C. front-right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. front-right,A. back-down,False
+456,"If you're looking at the cabinet, where would you find the door?A. down
+B. down-left
+C. back-left
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,D. right,True
+457,"Can you describe the position of the lamp relative to the nightstand?A. right
+B. front
+C. above
+D. down-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. above,C. above,True
+458,"Where is the desk located compared to the bag from the camera's perspective?A. front-right
+B. back-down
+C. back-up
+D. front-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. front-up,B. back-down,False
+459,"Can you describe the position of the desk relative to the chair?A. back-left
+B. down-left
+C. front-right
+D. front-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. back-left,A. back-left,True
+460,"How is the lamp positioned with respect to the nightstand?A. back-right
+B. front
+C. back-up
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,C. back-up,False
+461,"Can you describe the position of the cabinet relative to the towel?A. down
+B. back
+C. back-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. down,A. down,True
+462,"Could you tell me the location of the cabinet in comparison to the sink?A. front
+B. back-down
+C. down-right
+D. above
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. above,B. back-down,False
+463,"How is the desk positioned with respect to the cabinet?A. back-left
+B. back-right
+C. front-right
+D. back-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. front-right,A. back-left,False
+464,"Where is the cabinet located compared to the chair from the camera's perspective?A. above-left
+B. front-right
+C. back-right
+D. front-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. above-left,B. front-right,False
+465,"Where is the lamp in relation to the nightstand?A. back-left
+B. down-left
+C. above
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. above,C. above,True
+466,"Standing at curtain, gazing at bathtub, where should nightstand be?A. back-right
+B. front-right
+C. front-left
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front-right,B. front-right,True
+467,"Imagine standing at curtain looking towards window, where is bathtub?A. left
+B. back-right
+C. back
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. left,A. left,True
+468,"Imagine standing at window looking towards bathtub, where is nightstand?A. front-left
+B. back-left
+C. back
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front-left,D. front-right,False
+469,"If you stand at desk facing sink, where is curtain?A. front
+B. back
+C. left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. back,B. back,True
+470,"When positioned at sink facing window, where can you find nightstand?A. back
+B. front-left
+C. right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front-left,B. front-left,True
+471,"Standing at window, gazing at lamp, where should nightstand be?A. front
+B. back-right
+C. right
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front,A. front,True
+472,"Imagine standing at bathtub looking towards lamp, where is nightstand?A. left
+B. back-left
+C. right
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. right,D. front,False
+473,"Where is the cabinet in relation to the window?A. above-left
+B. down-left
+C. back-down
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,D. right,True
+474,"Can you describe the position of the books relative to the chair?A. left
+B. front-right
+C. back-up
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. left,A. left,True
+475,"Could you tell me the location of the pillow in comparison to the books?A. above
+B. back
+C. above-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. front-right,B. back,False
+476,"How is the lamp positioned with respect to the pillow?A. back
+B. front-up
+C. down
+D. back-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down,C. down,True
+477,"Can you describe the position of the table relative to the cabinet?A. back-down
+B. right
+C. front-down
+D. back-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,B. right,True
+478,"Could you tell me the location of the pillow in comparison to the floor mat?A. down-left
+B. above-left
+C. back-left
+D. front-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. above-left,C. back-left,False
+479,"Where is the desk in relation to the bag?A. front
+B. above-left
+C. right
+D. front-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. right,C. right,True
+480,"How is the pillow positioned with respect to the table?A. front-down
+B. left
+C. down
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. left,D. back,False
+481,"How is the desk positioned with respect to the books?A. left
+B. front-down
+C. down-right
+D. down-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. left,C. down-right,False
+482,"How is the box positioned with respect to the sink?A. back-up
+B. back-right
+C. front-up
+D. down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. down,B. back-right,False
+483,"How is the box positioned with respect to the sink?A. left
+B. front-right
+C. back
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. left,A. left,True
+484,"Where is the bag located compared to the lamp from the camera's perspective?A. right
+B. above-left
+C. back
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,A. right,False
+485,"If you're looking at the table, where would you find the pillow?A. front-up
+B. above-left
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. back,D. back,True
+486,"If you stand at pillow facing table, where is box?A. front
+B. right
+C. left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. right,D. back,False
+487,"Standing at floor mat, gazing at shelves, where should refrigerator be?A. left
+B. right
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. right,A. left,False
+488,"Standing at table, gazing at floor mat, where should sofa be?A. left
+B. right
+C. front
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. right,B. right,True
+489,"If you stand at desk facing bag, where is pillow?A. back
+B. back-right
+C. right
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. front,D. front,True
+490,"Standing at bag, gazing at pillow, where should table be?A. front-right
+B. back
+C. left
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front-right,A. front-right,True
+491,"Standing at desk, gazing at floor mat, where should sofa be?A. back-left
+B. front-left
+C. back
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. right,B. front-left,False
+492,"When positioned at desk facing floor mat, where can you find shelves?A. back
+B. back-right
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. left,D. left,True
+493,"Taking the camera's viewpoint as the front, which way is the giraffe facing in the image?A. back-left
+B. right
+C. front-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. back-left,A. back-left,True
+494,"Suppose you are in the giraffe’s position, what direction are you facing?A. front-right
+B. left
+C. back
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,A. front-right,A. front-right,True
+495,"Taking the camera lens as the front, what direction is the woman looking toward?A. front-left
+B. back
+C. front-right
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back,B. back,True
+496,"Imagine you're the woman in this image — which direction are you facing?A. back-left
+B. front
+C. back
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+497,"From this woman's perspective, where is the door located?A. front
+B. back-right
+C. left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,C. left,A. front,False
+498,"Where is the cabinet located compared to the door from the camera's perspective?A. down
+B. above-left
+C. left
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. left,D. right,False
+499,"Can you describe the position of the chair relative to the cabinet?A. back
+B. front-up
+C. down-right
+D. down-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. down-left,A. back,False
+500,"How is the chair positioned with respect to the pillow?A. above
+B. down-right
+C. back
+D. front-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. back,D. front-up,False
+501,"Where is the sofa located compared to the person from the camera's perspective?A. back-up
+B. down
+C. above
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. right,D. right,True
+502,"Can you describe the position of the sofa relative to the cabinet?A. back-right
+B. back-up
+C. down
+D. back-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. down,A. back-right,False
+503,"Could you tell me the location of the sofa in comparison to the cabinet?A. down-left
+B. right
+C. down
+D. above
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,B. right,True
+504,"Where is the window in relation to the shelves?A. down
+B. down-right
+C. left
+D. front-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. front-up,D. front-up,True
+505,"Can you describe the position of the chair relative to the desk?A. left
+B. back-down
+C. right
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. left,C. right,False
+506,"How is the bookshelf positioned with respect to the cabinet?A. above-left
+B. front-down
+C. front-right
+D. front-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. front-right,A. above-left,False
+507,"How is the sofa positioned with respect to the person?A. back-right
+B. back-left
+C. front-down
+D. down-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. back-right,A. back-right,True
+508,"Where is the sofa located compared to the person from the camera's perspective?A. above-left
+B. front
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. left,C. right,False
+509,"If you're looking at the person, where would you find the sofa?A. right
+B. front-up
+C. down
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,A. right,True
+510,"Where is the sofa in relation to the person?A. front
+B. back-right
+C. front-down
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. back-right,B. back-right,True
+511,"Standing at door, gazing at person, where should whiteboard be?A. left
+B. back-right
+C. front-right
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. left,C. front-right,False
+512,"When positioned at door facing whiteboard, where can you find window?A. left
+B. back-right
+C. back-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. left,D. front-right,False
+513,"Imagine standing at person looking towards bookshelf, where is window?A. front-right
+B. back
+C. front-left
+D. back-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-left,C. front-left,True
+514,"Imagine standing at door looking towards bookshelf, where is window?A. back-left
+B. back
+C. front-left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-left,C. front-left,True
+515,"Imagine standing at sofa looking towards bookshelf, where is window?A. front
+B. left
+C. right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. left,B. left,True
+516,"Imagine standing at bookshelf looking towards whiteboard, where is window?A. back-left
+B. front-right
+C. front-left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. back-right,B. front-right,False
+517,"Imagine standing at person looking towards bookshelf, where is whiteboard?A. front
+B. left
+C. right
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. right,B. left,False
+518,"Taking the camera lens as the front, what direction is the woman looking toward?A. front-left
+B. back
+C. right
+D. front
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. back,B. back,True
+519,"Imagine you're the woman in this image — which direction are you facing?A. left
+B. back-right
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front,C. front,True
+520,"From this woman's perspective, where is the pizza placed?A. front
+B. back-left
+C. right
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,A. front,A. front,True
+521,"Where is the bag in relation to the paper?A. back-left
+B. right
+C. above
+D. above-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,B. right,True
+522,"How is the bag positioned with respect to the paper?A. front
+B. back-left
+C. back-up
+D. above-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. back-left,D. above-right,False
+523,"How is the lamp positioned with respect to the pillow?A. front-down
+B. down-right
+C. left
+D. back-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. left,C. left,True
+524,"Could you tell me the location of the bed in comparison to the lamp?A. left
+B. above-left
+C. right
+D. front-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. left,C. right,False
+525,"Can you describe the position of the lamp relative to the pillow?A. back-left
+B. down-left
+C. down-right
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. down-left,D. back-down,False
+526,"Could you tell me the location of the lamp in comparison to the pillow?A. left
+B. back
+C. down-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. left,B. back,False
+527,"Could you tell me the location of the paper in comparison to the chair?A. front-down
+B. back-up
+C. front-right
+D. above
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,D. above,D. above,True
+528,"Can you describe the position of the bag relative to the paper?A. right
+B. back-down
+C. above
+D. front-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,A. right,True
+529,"If you stand at door facing paper, where is bookshelf?A. back
+B. back-left
+C. front
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,D. right,D. right,True
+530,"Imagine standing at door looking towards bag, where is lamp?A. front-left
+B. front-right
+C. left
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. front-right,B. front-right,True
+531,"When positioned at paper facing cabinet, where can you find lamp?A. back-left
+B. back-right
+C. front
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,B. back-right,C. front,False
+532,"Imagine standing at bag looking towards bookshelf, where is cabinet?A. back-right
+B. back-left
+C. front-left
+D. back
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-left,C. front-left,True
+533,"If you stand at bag facing bookshelf, where is window?A. back-right
+B. back
+C. front-left
+D. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,C. front-left,C. front-left,True
+534,"When positioned at bookshelf facing window, where can you find lamp?A. front
+B. back-left
+C. back
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. front,A. front,True
+535,"When positioned at bag facing bookshelf, where can you find lamp?A. right
+B. back-left
+C. front-left
+D. front-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Scene Simulation Relative Direction,A. right,C. front-left,False
+536,"Taking the camera lens as the front, what direction is the man looking toward?A. left
+B. right
+C. back
+D. front-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. right,C. back,False
+537,"Imagine you're the man in this image — which direction are you facing?A. back-left
+B. left
+C. back
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+538,"With the camera's viewpoint as the front, which direction is the man wearing the white hat facing in the image?A. left
+B. front
+C. back
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,A. left,A. left,True
+539,"As the man wearing the white hat in the photo, in which direction are you facing?A. front-left
+B. back-left
+C. front-right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,C. front-right,C. front-right,True
+540,"From the perspective of the man wearing the white hat, where should the little girl be positioned?A. right
+B. back-left
+C. back
+D. front-left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. front-left,A. right,False
+541,"Taking the camera lens as the front, what direction is the man wearing the white helmet looking toward?A. front-right
+B. front-left
+C. back-left
+D. right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,C. back-left,B. front-left,False
+542,"As the man wearing the white helmet in the photo, in which direction are you facing?A. back-left
+B. left
+C. back-right
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,D. front,D. front,True
+543,"From the perspective of the man wearing the white helmet, where is the dog?A. back-right
+B. front
+C. right
+D. left
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,D. left,B. front,False
+544,"With the camera's viewpoint as the front, which direction is the man facing in the image?A. back-right
+B. left
+C. front-right
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Object View Orientation,B. left,B. left,True
+545,"Imagine you're the man in this image — which direction are you facing?A. back-left
+B. front
+C. right
+D. back-right
+Reply only to the corresponding option.
+Answer:",Person perspective - Object View Orientation,B. front,B. front,True
+546,"From the perspective of a man, where is the fence located?A. front-left
+B. right
+C. left
+D. front
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,B. right,True
+547,"Can you describe the position of the chair relative to the table?A. back-down
+B. right
+C. down-left
+D. back-up
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,B. right,B. right,True
+548,"Where is the chair located compared to the table from the camera's perspective?A. front-right
+B. down
+C. down-left
+D. above-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. front-right,D. above-left,False
+549,"Could you tell me the location of the chair in comparison to the table?A. back-left
+B. front-down
+C. right
+D. down-left
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. right,C. right,True
+550,"Can you describe the position of the chair relative to the table?A. right
+B. back-left
+C. back
+D. back-down
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. right,A. right,True
+551,"If you're looking at the table, where would you find the chair?A. above
+B. above-right
+C. back-down
+D. front-right
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,C. back-down,D. front-right,False
+552,"Can you describe the position of the books relative to the table?A. down-left
+B. above
+C. back-right
+D. back
+Reply only to the corresponding option.
+Answer:",Camera perspective - Relative Direction,A. down-left,B. above,False
+553,"Which hand does the boy use to hold the bottle?A. left
+B. right
+Reply only to the corresponding option.
+Answer:",Person perspective - Relative Direction,B. right,A. left,False
